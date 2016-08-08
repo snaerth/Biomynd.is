@@ -1,0 +1,155 @@
+<div class="filter_grid--100 error animated fadeInUp" ng-if="mi.errorMessage">
+    {{mi.errorMessage}} <a href="/" class="underline">Til baka</a>
+</div>
+
+<loading ng-if="mi.isLoading" class="info"></loading>
+
+<section class="movie_info_container" ng-if="!mi.errorMessage">
+    <div back-button class="back_button"></div>
+
+    <div class="modal_content_container">
+        <div class="background_image" back-img images="mi.movie.slides"></div>
+        <div class="background_image-overlay"></div>
+        <div class="modal_content_container--inner animated fadeIn {{mi.imagesExist ? '' : 'center'}}">
+            <div class="main_heading animated fadeInUp">
+                <h1>{{mi.movie.title}}
+                    <p ng-if="mi.movie['release-dateIS']" class="main_heading--date">({{mi.movie['release-dateIS']}})</p>
+                </h1>
+            </div>
+            <div class="movie_content_container">
+                <div class="movie_info_left">
+                    <ul>
+                        <li class="title">LEIKSTJÓRI</li>
+                        <li ng-repeat="director in mi.movie.directors_abridged">{{director.name}}</li>
+                    </ul>
+                    <ul>
+                        <li class="title">LEIKARAR</li>
+                        <li ng-repeat="actor in mi.movie.actors_abridged">{{actor.name}}</li>
+                    </ul>
+                </div>
+                <div class="movie_info_right">
+                    <ul class="horizontal_info_line info">
+                        <li ng-show="mi.movie.durationMinutes">
+                            <span>{{(mi.movie.durationMinutes) || (mi.movie.omdb[0].Runtime != 'N/A' ? mi.movie.omdb[0].Runtime : '')}}</span>
+                        </li>
+                        <li ng-if="mi.movie.year !== ''">
+                            <span>{{mi.movie.year}}</span>
+                        </li>
+                        <li class="imdb tooltip_container" ng-show="mi.movie.ids.imdb.length || (mi.movie.omdb[0] && mi.movie.omdb[0].imdbRating)">
+                            <div class="tooltip">IMDB</div>
+                            <a href="http://www.imdb.com/title/tt{{mi.movie.ids.imdb}}" target="_blank">
+                                <svg class="icon icon-star" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z" fill="#f5de50"/>
+                                    <path d="M0 0h18v18H0z" fill="none"/>
+                                </svg>
+                                <span>{{mi.movie.ratings.imdb || (mi.movie.omdb[0].imdbRating == 'N/A' ? '' : mi.movie.omdb[0].imdbRating )}}</span>
+                            </a>
+                        </li>
+                        <li class="tomato tooltip_container" ng-show="mi.movie.omdb[0] && mi.movie.omdb[0].tomatoRating && mi.movie.omdb[0].tomatoRating != 'N/A'">
+                            <div class="tooltip min_width--150">Rotten Tomatoes</div>
+                            <a href="{{mi.movie.omdb[0].tomatoURL}}" target="_blank"><img src="images/rotten.png" alt="Rotten tomatoes logo" /><span>{{ mi.movie.omdb[0].imdbRating == 'N/A' ? '' : mi.movie.omdb[0].imdbRating }}</span></a>
+                        </li>
+                    </ul>
+                    <p class="movie_plot" ng-if="mi.movie.plot">{{mi.movie.plot || mi.movie.omdb[0].Plot}}</p>
+                    <p class="movie_plot" ng-if="!mi.movie.plot">Lýsingu vantar...</p>
+                    <ul class="horizontal_info_line top-0" ng-if="mi.movie.genres.length && mi.movie.genres[0].Name">
+                        <li ng-repeat="genre in mi.movie.genres">{{genre.Name}}</li>
+                    </ul>
+                    <div class="directors_and_actors">
+                        <ul>
+                            <li class="title">LEIKSTJÓRI</li>
+                            <li ng-repeat="director in mi.movie.directors_abridged">{{director.name}}{{$last !== true ? ', ' : ''}}</li>
+                        </ul>
+                        <ul>
+                            <li class="title">LEIKARAR</li>
+                            <li ng-repeat="actor in mi.movie.actors_abridged">{{actor.name}}{{$last !== true ? ', ' : ''}}</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="movie_poster_container" ng-if="!mi.imagesExist">
+                    <div class="movie_info_container__poster animated fadeIn">
+                        <img ng-src="{{mi.movie.poster}}" alt="{{mi.movie.title}}" image-onload backup-image="images/placeholder.png" />
+                        <div class="movie_container__overlay"></div>
+                        <div class="movie_container__certificateIS visible {{mi.movie.certificate.color}}" ng-if="mi.movie.certificate.number">
+                            <p class="{{mi.movie.certificate.color}}">{{mi.movie.certificate.number}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="poster_image" back-img images="mi.movie.images">
+                <div class="movie_container__overlay"></div>
+                <h1 class="animated fadeIn {{mi.movie['release-dateIS'] ? 'upcoming' : ''}}">{{mi.movie.title}}
+                    <p ng-if="mi.movie['release-dateIS']" class="main_heading--date">({{mi.movie['release-dateIS']}})</p>
+                </h1>
+                <div class="animated fadeIn movie_container__certificateIS visible {{mi.movie.certificate.color}}" ng-if="mi.movie.certificate.number">
+                    <p class="{{mi.movie.certificate.color}}">{{mi.movie.certificate.number}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab_container">
+        <div ng-tabs>
+            <div class="nav_head_container">
+                <div class="nav_head">
+                    <div id="showtimes" ng-tab-head="{active:mi.movie.showtimes}" ng-if="mi.movie.showtimes">Sýningar</div>
+                    <div id="trailers" ng-tab-head="{active:!mi.movie.showtimes}" ng-if="mi.movie.trailers[0] && mi.movie.trailers[0].results.length > 0">Sýnishorn</div>
+                    <div id="images" ng-tab-head ng-if="mi.movie.images">Myndir</div>
+                    <div id="posters" ng-tab-head ng-if="mi.movie.posters">Plaköt</div>
+                </div>
+            </div>
+            <div ng-tab-body ng-if="mi.movie.showtimes">
+                <div class="showtimes_container animated fadeIn">
+                    <div class="theaters_container">
+                        <div class="theater" ng-repeat="showtime in mi.movie.showtimes">
+                            <h3>{{showtime.cinema.name}}</h3>
+                            <div class="showtimes_container--time-container">
+                                <ul>
+                                    <li ng-repeat="schedule in showtime.schedule"><a href="{{schedule.purchase_url}}" target="_blank">{{schedule.time}}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ng-tab-body ng-if="mi.movie.trailers[0] && mi.movie.trailers[0].results.length > 0">
+                <div class="trailers_container flex-row animated fadeInUp">
+                    <div ng-repeat="trailer in mi.movie.trailers[0].results" class="trailer_container">
+                        <iframe ng-src="{{trailer.url | trusted}}" width="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div ng-tab-body ng-if="mi.movie.images">
+                <div class="movies_container_upper animated fadeInUp">
+                    <div ng-repeat="image in mi.movie.imagesChunk track by $index" class="backdrop" ng-click="mi.openPhotoswipe(1920, 1080, $index, 'images')">
+                        <div class="overflow_hidden">
+                            <div class="backdrop__inner">
+                                <img image-onload-backdrop ng-src="{{image}}" alt="{{mi.movie.title + ' mynd ' +  $index}}" />
+                                <div class="image_loader"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter_grid tabs" ng-if="!mi.tabStates.images.finished">
+                    <button ng-click="mi.loadImages('images','load')">FLEIRI MYNDIR</button>
+                </div>
+            </div>
+            <div ng-tab-body ng-if="mi.movie.posters">
+                <div class="movies_container_upper animated fadeInUp">
+                    <div ng-repeat="poster in mi.movie.postersChunk track by $index" class="movie_container posters" ng-click="mi.openPhotoswipe(600, 900, $index, 'posters')">
+                        <div class="overflow_hidden">
+                            <div class="movie_container__inner">
+                                <img image-onload ng-src="{{poster}}" alt="{{mi.movie.title + ' mynd ' +  $index}}" />
+                            </div>
+                        </div>
+                        <div class="image_loader"></div>
+                    </div>
+                </div>
+                <div class="filter_grid tabs" ng-if="!mi.tabStates.posters.finished">
+                    <button ng-click="mi.loadImages('posters','load')">FLEIRI MYNDIR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

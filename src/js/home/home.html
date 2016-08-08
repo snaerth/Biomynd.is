@@ -1,0 +1,101 @@
+<div movie-filters ng-cloak class="filter_container--outer" ng-swipe-left="vm.filterToggle()"></div>
+
+<div class="filter_grid--100 error animated fadeInUp" ng-if="vm.errorMessage">
+    {{vm.errorMessage}} <span ng-click="vm.reset()" class="underline" ng-if="vm.resetButton">Endurstilla.</span>
+</div>
+
+<div class="toggle-view-container" toggle-view="{{!vm.isPosterDesign ? 'POSTER' : 'LIST'}}">
+    <div class="list-grid-toggle">
+        <div class="icon {{!vm.isPosterDesign ? 'icon-grid' : ''}}">
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+        </div>
+        <span class="label">List</span>
+    </div>
+</div>
+
+<div class="movies_container_upper animated fadeInUp" ng-show="vm.isPosterDesign" ng-swipe-right="vm.filterToggle()">
+    <loading ng-if="vm.isLoading"></loading>
+
+    <div ng-repeat="movie in vm.movies track by (movie.id + movie.title)" class="movie_container animated fadeIn">
+        <div class="overflow_hidden {{movie.certificate.color}}" ng-click="vm.movieInfo(movie)">
+            <div class="movie_container__inner">
+                <!-- open-modal-->
+                <img image-onload ng-src="{{movie.poster}}" alt="{{movie.title}}" />
+                <div class="movie_container__overlay"></div>
+                <div class="movie_container__info {{movie.certificate.color}}">
+                    <div class="imdb_logo" ng-if="movie.ratings.imdb || (movie.omdb[0].imdbRating && movie.omdb[0].imdbRating !== 'N/A')">
+                        <svg class="icon icon-star" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z" fill="#f5de50" />
+                            <path d="M0 0h18v18H0z" fill="none" />
+                        </svg>
+                        <span>{{movie.ratings.imdb || movie.omdb[0].imdbRating}}</span>
+                    </div>
+                    <div class="movie_container__certificateIS {{movie.certificate.color}}" ng-if="movie.certificate.number">
+                        <p class="{{movie.certificate.color}}">{{movie.certificate.number}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image_loader"></div>
+        <p class="movie_container__title">{{movie.title}}</p>
+    </div>
+</div>
+
+<div class="movies_container_upper list animated fadeInUp" ng-show="!vm.isPosterDesign" ng-swipe-right="vm.filterToggle()">
+    <div class="list_container">
+        <div ng-repeat="movie in vm.movies track by (movie.id + movie.title)" ng-model="movies">
+            <div class="item" ng-click="vm.movieInfo(movie)">
+                <div class="movie_info_container__poster smaller">
+                    <img image-onload-list ng-src="{{movie.poster}}" alt="{{movie.title}}" />
+                    <div class="movie_container__overlay"></div>
+                    <div class="movie_container__certificateIS visible {{movie.certificate.color}}" ng-if="movie.certificate.number">
+                        <p class="{{movie.certificate.color}}">{{movie.certificate.number}}</p>
+                    </div>
+                    <div class="image_loader" ng-click="vm.movieInfo(movie)"></div>
+                </div>
+                <div class="list_content">
+                    <svg class="icon icon-next" viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                        <path d="M0 0h24v24H0z" fill="none" />
+                    </svg>
+                    <h2>{{movie.title}}</h2>
+
+                    <ul class="horizontal_info_line info">
+                        <li ng-show="movie.durationMinutes && movie.durationMinutes !== '0'">
+                            <span class="roboto">{{movie.durationMinutes}}</span>
+                        </li>
+                        <li ng-if="movie.year !== ''">
+                            <span class="roboto">{{movie.year}}</span>
+                        </li>
+                        <li class="imdb" ng-show="movie.ids.imdb.length && movie.omdb[0] && movie.omdb[0].imdbRating && movie.omdb[0].imdbRating !== 'N/A'">
+                            <a href="http://www.imdb.com/title/tt{{mi.movie.ids.imdb}}" target="_blank" ng-class="{'not-active':vm.isMobile}">
+                                <svg class="icon icon-star" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z" fill="#f5de50" />
+                                    <path d="M0 0h18v18H0z" fill="none" />
+                                </svg>
+                                <span>{{movie.ratings.imdb || (movie.omdb[0].imdbRating == 'N/A' ? '' : movie.omdb[0].imdbRating )}}</span>
+                            </a>
+                        </li>
+                        <li class="tomato" ng-if="movie.omdb[0] && movie.omdb[0].tomatoRating && movie.omdb[0].tomatoRating != 'N/A'">
+                            <a href="{{movie.omdb[0].tomatoURL}}" target="_blank" ng-class="{'not-active':vm.isMobile}"><img src="images/rotten.png" alt="Rotten tomatoes logo" /><span>{{ movie.omdb[0].tomatoRating === 'N/A' ? '' : movie.omdb[0].tomatoRating }}</span></a>
+                        </li>
+                    </ul>
+                    <div class="showtimes_container">
+                        <div class="theater" ng-repeat="showtime in movie.showtimes">
+                            <div class="theater_content">
+                                <h3>{{showtime.cinema.name}}</h3>
+                                <div class="showtimes_container--time-container">
+                                    <ul>
+                                        <li ng-repeat="schedule in showtime.schedule"><a href="{{schedule.purchase_url}}" target="_blank" ng-class="{'not-active':vm.isMobile}">{{schedule.time}}</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

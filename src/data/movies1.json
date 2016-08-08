@@ -1,0 +1,3795 @@
+[
+  {
+    "id": 10293,
+    "ids": {
+      "imdb": "3799694",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Nice Guys",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "16 ára",
+    "durationMinutes": 116,
+    "genres": [
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      },
+      {
+        "ID": 8,
+        "Name": "Glæpamynd",
+        "NameEN\t": "Crime"
+      },
+      {
+        "ID": 38,
+        "Name": "Ráðgáta",
+        "NameEN\t": "Mystery"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10293_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Ryan Gosling"
+      },
+      {
+        "name": "Russell Crowe"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Shane Black"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.9",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "22:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1592"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 290250,
+        "results": [
+          {
+            "id": "571d2f0b92514151b1002476",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "Ihb8vCrj2kc",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/Ihb8vCrj2kc?rel=0"
+          },
+          {
+            "id": "571d2f499251416b910003c9",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "GQR5zsLHbYw",
+            "name": "Official Main Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/GQR5zsLHbYw?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Nice Guys",
+        "Year": "2016",
+        "Rated": "R",
+        "Released": "20 May 2016",
+        "Runtime": "116 min",
+        "Genre": "Action, Comedy, Crime",
+        "Director": "Shane Black",
+        "Writer": "Shane Black, Anthony Bagarozzi",
+        "Actors": "Russell Crowe, Ryan Gosling, Angourie Rice, Matt Bomer",
+        "Plot": "A mismatched pair of private eyes investigate the apparent suicide of a fading porn star in 1970s Los Angeles.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjcwNDA5MDYyNl5BMl5BanBnXkFtZTgwNjg0NDkzNzE@._V1_SX300.jpg",
+        "Metascore": "70",
+        "imdbRating": "8.0",
+        "imdbVotes": "11,579",
+        "imdbID": "tt3799694",
+        "Type": "movie",
+        "tomatoMeter": "91",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.6",
+        "tomatoReviews": "187",
+        "tomatoFresh": "171",
+        "tomatoRotten": "16",
+        "tomatoConsensus": "The Nice Guys hearkens back to the buddy comedies of a bygone era while adding something extra courtesy of a knowing script and the irresistible chemistry of its leads.",
+        "tomatoUserMeter": "82",
+        "tomatoUserRating": "3.9",
+        "tomatoUserReviews": "31339",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_nice_guys/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Warner Bros. Pictures",
+        "Website": "http://www.theniceguysmovie.com",
+        "Response": "True"
+      }
+    ],
+    "plot": "Myndin segir frá þeim Holland March og Jackson Healy sem búa í Los Angeles árið 1977. Sá fyrrnefndi\nstarfar sem einkaspæjari en sá síðarnefndi tekur að sér að lumbra á mönnum fyrir nokkurn veginn hvaða sakir sem er, gegn greiðslu auðvitað. Þeir Holland og Jackson þekkjast ekkert í byrjun sögunnar en þegar Jackson er ráðinn til að lemja Holland breytist það og þótt það hljómi ótrúlega leiða þau fyrstu kynni til samstarfs þeirra á milli ..."
+  },
+  {
+    "id": 10637,
+    "ids": {
+      "imdb": "",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Jökullinn logar – leiðin okkar á EM",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "",
+    "durationMinutes": 0,
+    "genres": [
+      39,
+      75,
+      80
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/jökullinn-1464041912.jpg",
+    "actors_abridged": [],
+    "directors_abridged": [
+      {
+        "name": "Sævar Guðmundsson"
+      }
+    ],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": "1",
+        "schedule": [
+          {
+            "time": "15:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5551"
+          },
+          {
+            "time": "17:50",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5551"
+          },
+          {
+            "time": "19:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5551"
+          }
+        ]
+      },
+      {
+        "cinema": "2",
+        "schedule": [
+          {
+            "time": "17:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5549"
+          },
+          {
+            "time": "20:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5549"
+          },
+          {
+            "time": "22:20",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5549"
+          }
+        ]
+      },
+      {
+        "cinema": "3",
+        "schedule": [
+          {
+            "time": "17:45",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/1556"
+          }
+        ]
+      }
+    ],
+    "trailers": [],
+    "omdb": []
+  },
+  {
+    "id": 10463,
+    "ids": {
+      "imdb": "2241351",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Money Monster",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 98,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      },
+      {
+        "ID": 8,
+        "Name": "Glæpamynd",
+        "NameEN\t": "Crime"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/money-1464600587.jpg",
+    "actors_abridged": [
+      {
+        "name": "Julia Roberts"
+      },
+      {
+        "name": "George Clooney"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jodie Foster"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.8",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "17:45",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5553"
+          },
+          {
+            "time": "20:10",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5553"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "17:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5552"
+          },
+          {
+            "time": "20:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5552"
+          },
+          {
+            "time": "22:20",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5552"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 3,
+          "name": "Borgarbíó"
+        },
+        "schedule": [
+          {
+            "time": "20:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/1554"
+          },
+          {
+            "time": "22:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/1554"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "22:10",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1586"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 303858,
+        "results": [
+          {
+            "id": "571b7023c3a36824a300120e",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "qr_nGAbFkmk",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/qr_nGAbFkmk?rel=0"
+          },
+          {
+            "id": "571b7066c3a36824a3001212",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "xT3SLHlnEUI",
+            "name": "Official International Trailer",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/xT3SLHlnEUI?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Money Monster",
+        "Year": "2016",
+        "Rated": "R",
+        "Released": "13 May 2016",
+        "Runtime": "98 min",
+        "Genre": "Crime, Drama, Thriller",
+        "Director": "Jodie Foster",
+        "Writer": "Jamie Linden (screenplay), Alan DiFiore (screenplay), Jim Kouf (screenplay), Alan DiFiore (story), Jim Kouf (story)",
+        "Actors": "George Clooney, Julia Roberts, Jack O'Connell, Dominic West",
+        "Plot": "Financial TV host Lee Gates and his producer Patty are put in an extreme situation when an irate investor takes over their studio.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTgzMjU1NDUwMl5BMl5BanBnXkFtZTgwODg1NjY0ODE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "6.5",
+        "imdbVotes": "52",
+        "imdbID": "tt2241351",
+        "Type": "movie",
+        "tomatoMeter": "55",
+        "tomatoImage": "rotten",
+        "tomatoRating": "5.9",
+        "tomatoReviews": "163",
+        "tomatoFresh": "89",
+        "tomatoRotten": "74",
+        "tomatoConsensus": "Money Monster's strong cast and solidly written story ride a timely wave of socioeconomic anger that's powerful enough to overcome an occasionally muddled approach to its worthy themes.",
+        "tomatoUserMeter": "62",
+        "tomatoUserRating": "3.4",
+        "tomatoUserReviews": "13859",
+        "tomatoURL": "http://www.rottentomatoes.com/m/money_monster/",
+        "DVD": "N/A",
+        "BoxOffice": "$27.1M",
+        "Production": "Smokehouse Pictures",
+        "Website": "http://www.sonypictures.com/movies/moneymonster/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Í beinni útsendingu fjármálaþáttarins Money Monster sem lýtur stjórn Lee Gates ryðst hinn ungi Kyle Budwell inn í útsendinguna, tekur Lee í gíslingu, setur á hann sprengjubelti og hótar að sprengja það í loft upp fái hann ekki svör. Hann er öskureiður yfir að hafa tapað öllum sínum peningum, um 60 þúsund dollurum, á að kaupa hlutabréf í fyrirtæki sem Lee hafði mælt með í sjónvarpsþættinum skömmu áður. Innan þrjátíu daga fór fyrirtækið hins vegar á hausinn og hlutabréfin urðu verðlaus með öllu. Kyle er sannfærður um að brögð hafi verið í tafli og hótar því að fái hann ekki sannleikann út úr Lee muni hann bæði sprengja hann í loft upp og fremja sjálfur sjálfsmorð. Hvað er til ráða?"
+  },
+  {
+    "id": 9652,
+    "ids": {
+      "imdb": "3949660",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+    "alternativeTitles": "Teenage Mutant Ninja Turtles 2",
+    "year": "2016",
+    "certificateIS": "9 ára",
+    "durationMinutes": 112,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/9652_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Megan Fox"
+      },
+      {
+        "name": "Stephen Amell"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Dave Green"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.5",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "16:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5554"
+          },
+          {
+            "time": "17:00 (LÚX )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5554"
+          },
+          {
+            "time": "20:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5554"
+          },
+          {
+            "time": "22:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5554"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "17:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1588"
+          },
+          {
+            "time": "20:00 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1590"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212418/"
+          },
+          {
+            "time": "17:30 (P)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212430/"
+          },
+          {
+            "time": "18:00 (3D A)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212411/"
+          },
+          {
+            "time": "20:00 (1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212419/"
+          },
+          {
+            "time": "20:00 (P)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212431/"
+          },
+          {
+            "time": "20:30 (3D A)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212412/"
+          },
+          {
+            "time": "22:30 (P)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212432/"
+          },
+          {
+            "time": "22:30 (1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212420/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "16:00 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212436/"
+          },
+          {
+            "time": "17:30 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212433/"
+          },
+          {
+            "time": "18:30 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212437/"
+          },
+          {
+            "time": "20:00 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212434/"
+          },
+          {
+            "time": "22:30 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212435/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:40 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212598/"
+          },
+          {
+            "time": "20:00 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212587/"
+          },
+          {
+            "time": "22:30 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212588/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (3D A)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212442/"
+          },
+          {
+            "time": "20:00 (3D A)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212443/"
+          },
+          {
+            "time": "22:30 (3D A)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212444/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212516/"
+          },
+          {
+            "time": "22:30 (3D 1)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212517/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 308531,
+        "results": [
+          {
+            "id": "5713fc9ec3a36860a800d1ec",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "VAbRg7xUtVU",
+            "name": "Official Trailer #2",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/VAbRg7xUtVU?rel=0"
+          },
+          {
+            "id": "5713fbf9c3a3686636007a89",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "HeaugHGd1Kw",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/HeaugHGd1Kw?rel=0"
+          },
+          {
+            "id": "5713fc77c3a36831e100b8d8",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "5VpUTb3Ex_8",
+            "name": "Big Game Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/5VpUTb3Ex_8?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "03 Jun 2016",
+        "Runtime": "112 min",
+        "Genre": "Action, Adventure, Comedy",
+        "Director": "Dave Green",
+        "Writer": "Josh Appelbaum, André Nemec, Peter Laird (Teenage Mutant Ninja Turtles characters), Kevin Eastman (Teenage Mutant Ninja Turtles characters)",
+        "Actors": "Megan Fox, Stephen Amell, Laura Linney, Alan Ritchson",
+        "Plot": "The Turtles return to save the city from a dangerous threat.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjM4NDQ0NTYyMV5BMl5BanBnXkFtZTgwNTIxMjY3ODE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt3949660",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "36141",
+        "tomatoURL": "http://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles_2_2016/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Paramount Pictures",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Eftir ævintýrin í fyrri myndinni fá bræðurnir og skjaldbökurnar\nDonatello, Leonardo, Michelangelo og Raphael um nóg að hugsa\ná ný þegar erkióvinur þeirra, Shredder, fær vísindamanninn\nBaxter Stockman til að búa til nýja tegund af andstæðingum."
+  },
+  {
+    "id": 10294,
+    "ids": {
+      "imdb": "2567026",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Alice Through the Looking Glass",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "9 ára",
+    "durationMinutes": 108,
+    "genres": [
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/alice-1461869889.png",
+    "actors_abridged": [
+      {
+        "name": "Johnny Depp"
+      },
+      {
+        "name": "Anne Hathaway"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "James Bobin"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.4",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212422/"
+          },
+          {
+            "time": "20:00 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212423/"
+          },
+          {
+            "time": "22:30 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212424/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (3D 3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212439/"
+          },
+          {
+            "time": "20:00 (3D 3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212440/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (3D 2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212568/"
+          },
+          {
+            "time": "20:00 (3D 2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212569/"
+          },
+          {
+            "time": "22:30 (3D 2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212574/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (B)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212445/"
+          },
+          {
+            "time": "20:00 (B)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212446/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212518/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 241259,
+        "results": [
+          {
+            "id": "571b55f6c3a36823cb000eab",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "fomWLkyO_SY",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/fomWLkyO_SY?rel=0"
+          },
+          {
+            "id": "571b551e92514121a0002d59",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "OiEG3Zr_Jxs",
+            "name": "First Look Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/OiEG3Zr_Jxs?rel=0"
+          },
+          {
+            "id": "571b56a2c3a36864e00021f3",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "0xduIrmvnUE",
+            "name": "TV Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/0xduIrmvnUE?rel=0"
+          },
+          {
+            "id": "571b5659c3a368197c002892",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "bSgTU0svg9M",
+            "name": "Missing an Hour? Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/bSgTU0svg9M?rel=0"
+          },
+          {
+            "id": "571b578292514135ff000e33",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "KKE0Py64jmk",
+            "name": "Extended Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/KKE0Py64jmk?rel=0"
+          },
+          {
+            "id": "571b573892514172e5001b69",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "dX-bT1SdKj8",
+            "name": "\"Tick Tock\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/dX-bT1SdKj8?rel=0"
+          },
+          {
+            "id": "571b56fcc3a36823cb000ed3",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "f20pL_rn3DE",
+            "name": "\"Hurry Up\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/f20pL_rn3DE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Alice Through the Looking Glass",
+        "Year": "2016",
+        "Rated": "PG",
+        "Released": "27 May 2016",
+        "Runtime": "108 min",
+        "Genre": "Adventure, Family, Fantasy",
+        "Director": "James Bobin",
+        "Writer": "Linda Woolverton (screenplay), Lewis Carroll (books)",
+        "Actors": "Johnny Depp, Anne Hathaway, Helena Bonham Carter, Alan Rickman",
+        "Plot": "Alice returns to the whimsical world of Wonderland and travels back in time to save the Mad Hatter.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTc2NjExMTIyN15BMl5BanBnXkFtZTgwMjg0OTIwODE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt2567026",
+        "Type": "movie",
+        "tomatoMeter": "22",
+        "tomatoImage": "rotten",
+        "tomatoRating": "4.2",
+        "tomatoReviews": "9",
+        "tomatoFresh": "2",
+        "tomatoRotten": "7",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "17614",
+        "tomatoURL": "http://www.rottentomatoes.com/m/alice_in_wonderland_through_the_looking_glass/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Walt Disney Pictures",
+        "Website": "http://movies.disney.com/alice-through-the-looking-glass",
+        "Response": "True"
+      }
+    ],
+    "plot": "Sagan gerist sex mánuðum eftir ævintýrin í Undralandi og í þetta sinn\nfer Lísa í gegnum spegil sem liggur til Spegillands. Þar hittir hún\nreyndar fyrir margar af sömu persónunum og voru í Undralandi sem\nþó hafa sumar hverjar tekið nokkrum breytingum. Og sem fyrr þarf\nLísa að leysa alls konar þrautir áður en hún getur haldið heim á ný ..."
+  },
+  {
+    "id": 10629,
+    "ids": {
+      "imdb": "",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Úti að aka - Á reykspúandi kadilakk yfir Ameríku",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "",
+    "durationMinutes": 60,
+    "genres": [
+      39,
+      75
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/úti_að_aka-1464101393.jpg",
+    "actors_abridged": [
+      {
+        "name": "Einar Kárason"
+      },
+      {
+        "name": "Ólafur Gunnarsson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Sveinn M. Sveinsson"
+      }
+    ],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": "5",
+        "schedule": [
+          {
+            "time": "20.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2881/"
+          }
+        ]
+      }
+    ],
+    "trailers": [],
+    "omdb": []
+  },
+  {
+    "id": 9647,
+    "ids": {
+      "imdb": "0803096",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Warcraft",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 100,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/warcraft-1453386217.jpg",
+    "actors_abridged": [
+      {
+        "name": "Travis Fimmel"
+      },
+      {
+        "name": "Paula Patton"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Duncan Jones"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.9",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "19:30 (3DLÚX )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5511"
+          },
+          {
+            "time": "20:10 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5511"
+          },
+          {
+            "time": "22:10 (3DLÚX )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5511"
+          },
+          {
+            "time": "22:50 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5511"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "21:00 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5510"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 3,
+          "name": "Borgarbíó"
+        },
+        "schedule": [
+          {
+            "time": "17:45 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/1552"
+          },
+          {
+            "time": "20:00 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/1552"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (2D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1443"
+          },
+          {
+            "time": "20:00 (2D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1443"
+          },
+          {
+            "time": "22:20 (2D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1443"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 11,
+          "name": "Sambíóin, Keflavík"
+        },
+        "schedule": [
+          {
+            "time": "22:30 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212519/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 68735,
+        "results": [
+          {
+            "id": "571cf024c3a3684e98001b34",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "2Rxoz13Bthc",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/2Rxoz13Bthc?rel=0"
+          },
+          {
+            "id": "573b6cbf92514113b6000496",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "jak3WXZZlVo",
+            "name": "A Look Inside",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/jak3WXZZlVo?rel=0"
+          },
+          {
+            "id": "571cf071c3a3684e98001b3c",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "pvlGM6ikW0U",
+            "name": "TV Spot 2",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/pvlGM6ikW0U?rel=0"
+          },
+          {
+            "id": "571cf05ac3a3685e160002cc",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "6qEXq0cH3x0",
+            "name": "TV Spot 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/6qEXq0cH3x0?rel=0"
+          },
+          {
+            "id": "571cf09992514115e20032cb",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "65AjY_nRdqE",
+            "name": "Official Trailer 2",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/65AjY_nRdqE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Warcraft",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "10 Jun 2016",
+        "Runtime": "123 min",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "Duncan Jones",
+        "Writer": "Duncan Jones (screenplay), Charles Leavitt (screenplay), Chris Metzen (story and characters)",
+        "Actors": "Travis Fimmel, Paula Patton, Ben Foster, Dominic Cooper",
+        "Plot": "The peaceful realm of Azeroth stands on the brink of war as its civilization faces a fearsome race of invaders: orc warriors fleeing their dying home to colonize another. As a portal opens ...",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjIwNTM0Mzc5MV5BMl5BanBnXkFtZTgwMDk5NDU1ODE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "9.0",
+        "imdbVotes": "1,620",
+        "imdbID": "tt0803096",
+        "Type": "movie",
+        "tomatoMeter": "24",
+        "tomatoImage": "rotten",
+        "tomatoRating": "4.4",
+        "tomatoReviews": "25",
+        "tomatoFresh": "6",
+        "tomatoRotten": "19",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "29466",
+        "tomatoURL": "http://www.rottentomatoes.com/m/warcraft/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Universal Pictures",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Warcraft er byggð á samnefndri tölvuleikjaseríu sem notið hefur gríðarlegra vinsælda allt frá því að fyrsti leikurinn, Warcraft: Orcs and Humans, kom út árið 1994.  Í myndinni er sagan sögð frá byrjun. Friðurinn er rofinn í landinu Azeroth þar sem menn hafa völdin þegar stríðsmenn orca frá Draenor ráðast til inngöngu í leit að nýjum heimkynnum því Draenor er smám saman að verða óbyggilegt fyrir þá. Stríð er nánast óumflýjanlegt þar sem báðar fylkingarnar eru að berjast fyrir tilveru sinni en slíkt stríð gæti að lokum leitt til þess að bæði menn og orcar þurrkuðust út fyrir fullt og allt."
+  },
+  {
+    "id": 10464,
+    "ids": {
+      "imdb": "4139124",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Keanu",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "16 ára",
+    "durationMinutes": 98,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10464_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Jordan Peele"
+      },
+      {
+        "name": "Keegan-Michael Key"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Peter Atencio"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.7",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (B)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212415/"
+          },
+          {
+            "time": "22:20 (B)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212416/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "22:30 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212441/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:40 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212555/"
+          },
+          {
+            "time": "20:00 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212553/"
+          },
+          {
+            "time": "22:20 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212554/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 342521,
+        "results": [
+          {
+            "id": "571b6afec3a36824a3001167",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "K9zy27apgI8",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/K9zy27apgI8?rel=0"
+          },
+          {
+            "id": "571b6b7b92514121a0002fb9",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "NhwuhhHYNgw",
+            "name": "Official Red Band Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/NhwuhhHYNgw?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Keanu",
+        "Year": "2016",
+        "Rated": "R",
+        "Released": "29 Apr 2016",
+        "Runtime": "100 min",
+        "Genre": "Comedy",
+        "Director": "Peter Atencio",
+        "Writer": "Jordan Peele, Alex Rubens",
+        "Actors": "Jordan Peele, Keegan-Michael Key, Tiffany Haddish, Method Man",
+        "Plot": "Friends hatch a plot to retrieve a stolen kitten by posing as drug dealers for a street gang.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTUwODA0NzQxMl5BMl5BanBnXkFtZTgwNzUyMjY3ODE@._V1_SX300.jpg",
+        "Metascore": "63",
+        "imdbRating": "6.9",
+        "imdbVotes": "5,145",
+        "imdbID": "tt4139124",
+        "Type": "movie",
+        "tomatoMeter": "78",
+        "tomatoImage": "certified",
+        "tomatoRating": "6.6",
+        "tomatoReviews": "116",
+        "tomatoFresh": "90",
+        "tomatoRotten": "26",
+        "tomatoConsensus": "Keanu's absurd premise and compulsively watchable starring duo add up to an agreeably fast-paced comedy that hits more than enough targets to make up for the misses.",
+        "tomatoUserMeter": "66",
+        "tomatoUserRating": "3.6",
+        "tomatoUserReviews": "16101",
+        "tomatoURL": "http://www.rottentomatoes.com/m/keanu_2016/",
+        "DVD": "N/A",
+        "BoxOffice": "$20.0M",
+        "Production": "Warner Bros. Pictures",
+        "Website": "http://keanumovie.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Þegar einhver brýst inn til málarans skakka, Rells, og nemur á brott kettlinginn hans og helstu fyrirsætu, Keanu, fær hann vin sinn og frænda, Clarence, til að aðstoða sig við að hafa uppi á kattarræningjunum. En björgunarleiðangurinn fer illa úrskeiðis."
+  },
+  {
+    "id": 10283,
+    "ids": {
+      "imdb": "3385516",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "X-Men: Apocalypse",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 120,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10283_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Jennifer Lawrence"
+      },
+      {
+        "name": "Michael Fassbender"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Bryan Singer"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.5",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "21:15 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5502"
+          },
+          {
+            "time": "22:30 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5502"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "20:10",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5498"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 3,
+          "name": "Borgarbíó"
+        },
+        "schedule": [
+          {
+            "time": "22:20 (3D )",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/8/1544"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 246655,
+        "results": [
+          {
+            "id": "5729c66e9251414e10001fd7",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "-k4knGRY8jA",
+            "name": "TV Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "url": "https://www.youtube.com/embed/-k4knGRY8jA?rel=0"
+          },
+          {
+            "id": "5751ba3e9251413be8001351",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "CmOZOk9j0Sk",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/CmOZOk9j0Sk?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "X-Men: Apocalypse",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "27 May 2016",
+        "Runtime": "144 min",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "Bryan Singer",
+        "Writer": "Simon Kinberg (screenplay), Bryan Singer (story), Simon Kinberg (story), Michael Dougherty (story), Dan Harris (story)",
+        "Actors": "James McAvoy, Michael Fassbender, Jennifer Lawrence, Nicholas Hoult",
+        "Plot": "With the emergence of the world's first mutant, Apocalypse, the X-Men must unite to defeat his extinction level plan.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjU1ODM1MzYxN15BMl5BanBnXkFtZTgwOTA4NDE2ODE@._V1_SX300.jpg",
+        "Metascore": "51",
+        "imdbRating": "7.8",
+        "imdbVotes": "10,280",
+        "imdbID": "tt3385516",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "84473",
+        "tomatoURL": "http://www.rottentomatoes.com/m/x_men_apocalypse/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "20th Century Fox",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Ljúfmennið og lúserinn Joe Dirt er mættur aftur, fimmtán árum eftir að við sáum hann síðast og lendir nú í því að ferðast nokkur ár aftur í tímann, eða nánar tiltekið þegar gríðarlega öflugur skýstrokkur þeytir hjólhýsi hans, með honum innanborðs, ekki bara langar leiðir heldur allt aftur til ársins 1965, þ.e. ársins sem hann fæddist. Og nú þarf Joe Dirt að finna út hvernig hann á að komast aftur til baka ... . Höndlar hann það?"
+  },
+  {
+    "id": 10505,
+    "ids": {
+      "imdb": "4824302",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Mother´s Day",
+    "alternativeTitles": "Mother's Day",
+    "year": "2016",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 118,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10505_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Jennifer Aniston"
+      },
+      {
+        "name": "Kate Hudson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Garry Marshall"
+      }
+    ],
+    "ratings": {
+      "imdb": "5.5",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212426/"
+          },
+          {
+            "time": "20:00 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212427/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "21:00 (2)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212438/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
+        "schedule": [
+          {
+            "time": "22:30 (B)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212447/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 353069,
+        "results": [
+          {
+            "id": "571d38ab92514151b1002568",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "AQkCNxIM5yk",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/AQkCNxIM5yk?rel=0"
+          },
+          {
+            "id": "571d389592514121a00073d5",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "dQMb6pxUU5E",
+            "name": "Official Trailer 2",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/dQMb6pxUU5E?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Mother's Day",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "29 Apr 2016",
+        "Runtime": "118 min",
+        "Genre": "Comedy, Drama",
+        "Director": "Garry Marshall",
+        "Writer": "Anya Kochoff (screenplay), Matthew Walker (screenplay), Tom Hines (screenplay), Lily Hollander (story), Matthew Walker (story), Tom Hines (story), Garry Marshall (story)",
+        "Actors": "Jennifer Aniston, Timothy Olyphant, Shay Mitchell, Caleb Brown",
+        "Plot": "Three generations come together in the week leading up to Mother's Day.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BODYzMjc5NDEzNF5BMl5BanBnXkFtZTgwMzI3ODcyODE@._V1_SX300.jpg",
+        "Metascore": "17",
+        "imdbRating": "5.4",
+        "imdbVotes": "2,795",
+        "imdbID": "tt4824302",
+        "Type": "movie",
+        "tomatoMeter": "8",
+        "tomatoImage": "rotten",
+        "tomatoRating": "3.0",
+        "tomatoReviews": "108",
+        "tomatoFresh": "9",
+        "tomatoRotten": "99",
+        "tomatoConsensus": "Arguably well-intended yet thoroughly misguided, Mother's Day is the cinematic equivalent of a last-minute gift that only underscores its embarrassing lack of effort.",
+        "tomatoUserMeter": "55",
+        "tomatoUserRating": "3.2",
+        "tomatoUserReviews": "9946",
+        "tomatoURL": "http://www.rottentomatoes.com/m/771422158/",
+        "DVD": "N/A",
+        "BoxOffice": "$31.3M",
+        "Production": "Open Road Films",
+        "Website": "http://www.seemothersday.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Leiðir fjögurra einstaklinga og fjölskyldna þeirra sem þekkjast misvel innbyrðis liggja saman á mæðradeginum 8. maí. Jennifer Aniston leikur fráskilda tveggja barna móður í miklu ströggli við að ná endum saman, Jason Sudeikis er í hlutverki einstæða föðurins Bradleys sem veit ekki alveg hvernig hann á að höndla táningsdóttur sína, Julia Roberts leikur konu sem tók starfsframann fram yfir fjölskyldulífið og Kate Hudson, leikur Jesse sem veit ekki hvernig hún á að bregðast við óvæntri heimsókn foreldra sinna. Leiðir þessara aðalpersóna myndarinnar liggja síðan saman á skondinn hátt svo úr verða fjórar aðskildar sögur sem fléttast saman í eina heild ..."
+  },
+  {
+    "id": 9655,
+    "ids": {
+      "imdb": "1985949",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Angry Birds Movie",
+    "alternativeTitles": "Angry Birds",
+    "year": "2016",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/birds-1461065600.png",
+    "actors_abridged": [
+      {
+        "name": "Peter Dinklage"
+      },
+      {
+        "name": "Josh Gad"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Clay Kaytis"
+      },
+      {
+        "name": "Fergal Reilly"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.4",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "15:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5495"
+          },
+          {
+            "time": "17:45",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5495"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "17:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1571"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 153518,
+        "results": [
+          {
+            "id": "571ce3e592514128eb0000a6",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "Cmd2veJheYY",
+            "name": "Official International Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/Cmd2veJheYY?rel=0"
+          },
+          {
+            "id": "571ce3ca92514128eb0000a2",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "Hksyh33N5dg",
+            "name": "Official Theatrical Trailer #3",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/Hksyh33N5dg?rel=0"
+          },
+          {
+            "id": "571ce39f92514151b10019fd",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "QRmKa7vvct4",
+            "name": "Official Theatrical Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/QRmKa7vvct4?rel=0"
+          },
+          {
+            "id": "571ce3369251414a87001a4c",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "0qJzWrq7les",
+            "name": "Official Teaser Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/0qJzWrq7les?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Angry Birds Movie",
+        "Year": "2016",
+        "Rated": "PG",
+        "Released": "20 May 2016",
+        "Runtime": "97 min",
+        "Genre": "Animation, Action, Comedy",
+        "Director": "Clay Kaytis, Fergal Reilly",
+        "Writer": "Jon Vitti",
+        "Actors": "Peter Dinklage, Tituss Burgess, Jason Sudeikis, Keegan-Michael Key",
+        "Plot": "Find out why the birds are so angry. When an island populated by happy, flightless birds is visited by mysterious green piggies, it's up to three unlikely outcasts - Red, Chuck and Bomb - to figure out what the pigs are up to.",
+        "Language": "English",
+        "Country": "Finland, USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjMwMjgyMDk0MF5BMl5BanBnXkFtZTgwNDIxOTI4NzE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "6.7",
+        "imdbVotes": "200",
+        "imdbID": "tt1985949",
+        "Type": "movie",
+        "tomatoMeter": "43",
+        "tomatoImage": "rotten",
+        "tomatoRating": "5.0",
+        "tomatoReviews": "120",
+        "tomatoFresh": "51",
+        "tomatoRotten": "69",
+        "tomatoConsensus": "The Angry Birds Movie is substantially more entertaining than any film adapted from an app has any right to be -- which may or may not be much of an endorsement.",
+        "tomatoUserMeter": "60",
+        "tomatoUserRating": "3.5",
+        "tomatoUserReviews": "14150",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_angry_birds_movie/",
+        "DVD": "N/A",
+        "BoxOffice": "$38.2M",
+        "Production": "Sony Pictures",
+        "Website": "http://www.angrybirds-movie.com/en/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Á friðsælli eyju, langt í burtu, býr hópur ófleygra fugla sem una sér flestir hið besta í fullkomnu frelsi til að gera það sem þeir vilja. En þegar fullt af grænum og grunsamlega vinalegum svínum koma til eyjunnar tekur líf fuglanna óafturkræfum breytingum."
+  },
+  {
+    "id": 10545,
+    "ids": {
+      "imdb": "4438848",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Bad Neighbours 2",
+    "alternativeTitles": "Neighbors 2: Sorority Rising",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 91,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/neighb-1461860578.png",
+    "actors_abridged": [
+      {
+        "name": "Chloë Grace Moretz"
+      },
+      {
+        "name": "Zac Efron"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Nick Stoller"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.2",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "20:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/11/1532"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 325133,
+        "results": [
+          {
+            "id": "571b6d50c3a368197c002b16",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "X2i9Zz_AqTg",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/X2i9Zz_AqTg?rel=0"
+          },
+          {
+            "id": "571b6e469251414e970048c3",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "EIe7nR0lvk4",
+            "name": "Official International Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/EIe7nR0lvk4?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Neighbors 2: Sorority Rising",
+        "Year": "2016",
+        "Rated": "R",
+        "Released": "20 May 2016",
+        "Runtime": "92 min",
+        "Genre": "Comedy",
+        "Director": "Nicholas Stoller",
+        "Writer": "Andrew Jay Cohen, Brendan O'Brien, Nicholas Stoller, Seth Rogen, Evan Goldberg",
+        "Actors": "Seth Rogen, Zac Efron, Rose Byrne, Chloë Grace Moretz",
+        "Plot": "When their new next-door neighbors turn out to be a sorority even more debaucherous than the fraternity previously living there, Mac and Kelly team with their former enemy, Teddy, to bring the girls down.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTY0NzUxMDUzN15BMl5BanBnXkFtZTgwNzI2MTY4ODE@._V1_SX300.jpg",
+        "Metascore": "58",
+        "imdbRating": "6.4",
+        "imdbVotes": "5,846",
+        "imdbID": "tt4438848",
+        "Type": "movie",
+        "tomatoMeter": "63",
+        "tomatoImage": "fresh",
+        "tomatoRating": "5.7",
+        "tomatoReviews": "158",
+        "tomatoFresh": "99",
+        "tomatoRotten": "59",
+        "tomatoConsensus": "Neighbors 2: Sorority Rising may not be strictly necessary, but it still wrings a surprising amount of humor from a recycled premise with a distaff twist.",
+        "tomatoUserMeter": "54",
+        "tomatoUserRating": "3.3",
+        "tomatoUserReviews": "41356",
+        "tomatoURL": "http://www.rottentomatoes.com/m/neighbors_2_sorority_rising/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Universal Pictures",
+        "Website": "http://www.neighbors-movie.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Við kíkjum hér aftur í heimsókn til hjónanna Macs og Kellyar Radner sem líst ekkert á blikuna þegar skólafélag stúlkna hreiðrar um sig í næsta húsi með tilheyrandi partýstandi og hávaða. Fyrir utan leiðindin þá gjaldfella lætin verðið á húsi Radner-hjónanna sem þau voru einmitt að fara að selja. Til að ráða bót á ástandinu duga auðvitað engin vettlingatök frekar en áður en þegar stelpurnar reynast harðari í horn að taka en Radner-hjónin reiknuðu með bregða þau á það\nörþrifaráð að kalla til aðstoðar sjálfan Teddy Sanders sem gerði þeim lífið leitt í síðustu mynd en er nú orðinn bandamaður ..."
+  },
+  {
+    "id": 10431,
+    "ids": {
+      "imdb": "3616916",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Wave",
+    "alternativeTitles": "Flóðbylgjan, Bølgen",
+    "year": "2015",
+    "certificateIS": "12 ára",
+    "durationMinutes": 104,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/bonger-1462270884.jpg",
+    "actors_abridged": [
+      {
+        "name": "Kristoffer Joner"
+      },
+      {
+        "name": "Thomas Bo Larsen"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Roar Uthaug"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.7",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "17:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5493"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 336882,
+        "results": [
+          {
+            "id": "56aab5299251417e20000874",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "z0zH9gqqlAw",
+            "name": "Trailer 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/z0zH9gqqlAw?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Wave",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "04 Mar 2016",
+        "Runtime": "105 min",
+        "Genre": "Action, Drama, Thriller",
+        "Director": "Roar Uthaug",
+        "Writer": "John Kåre Raake, Harald Rosenløw-Eeg",
+        "Actors": "Kristoffer Joner, Ane Dahl Torp, Jonas Hoff Oftebro, Edith Haagenrud-Sande",
+        "Plot": "Even though awaited, no-one is really ready when the mountain pass of Åkneset above the scenic narrow Norwegian fjord Geiranger falls out and creates a 85-meter-high violent tsunami. A geologist is one of those caught in the middle of it.",
+        "Language": "Norwegian",
+        "Country": "Norway",
+        "Awards": "4 wins & 4 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTg5Mjg0MjgxMl5BMl5BanBnXkFtZTgwNjUzNDg0NzE@._V1_SX300.jpg",
+        "Metascore": "68",
+        "imdbRating": "6.7",
+        "imdbVotes": "9,843",
+        "imdbID": "tt3616916",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Segja má að íbúar í bænum Geiranger, innst í Geirangersfirði í Noregi lifi lífinu á milli vonar og ótta því þeir búa við þá tifandi tímasprengju að stór hluti fjallsins Åkneset geti hvenær sem er losnað frá og fallið niður í fjörðinn með skelfilegum afleiðingum. Við kynnumst hér jarðfræðingnum Kristian Eikjord sem fylgist grannt með framvindu mála í Åkneset, en ef skriðan færi af stað er talið að bæjarbúar hafi um tíu mínútur til að forða sér áður en risaflóðbylgja skellur á bænum. Og einn daginn gerist einmitt það sem allir óttuðust. Skriðan fellur, flóðbylgjan myndast og framundan er æsileg atburðarás."
+  },
+  {
+    "id": 9650,
+    "ids": {
+      "imdb": "3498820",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Captain America: Civil War",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 146,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/9650_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Chris Evans"
+      },
+      {
+        "name": "Robert Downey Jr."
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Anthony Russo"
+      },
+      {
+        "name": "Joe Russo"
+      }
+    ],
+    "ratings": {
+      "imdb": "8.3",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "22:30 (3)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212428/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "19:45 (4)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212539/"
+          },
+          {
+            "time": "22:40 (4)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212542/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 271110,
+        "results": [
+          {
+            "id": "5751ba7cc3a368396b0001b0",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "62DwFKBJNv8",
+            "name": "Official Trailer 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/62DwFKBJNv8?rel=0"
+          },
+          {
+            "id": "5738f0ac92514166fe000fb6",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "dKrVegVI0Us",
+            "name": "Official Trailer 2",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/dKrVegVI0Us?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Captain America: Civil War",
+        "Year": "2016",
+        "Rated": "PG-13",
+        "Released": "06 May 2016",
+        "Runtime": "147 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Anthony Russo, Joe Russo",
+        "Writer": "Christopher Markus (screenplay), Stephen McFeely (screenplay), Mark Millar (comic book), Joe Simon (characters), Jack Kirby (characters)",
+        "Actors": "Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan",
+        "Plot": "Political interference in the Avengers' activities causes a rift between former allies Captain America and Iron Man.",
+        "Language": "Xhosa, English, German, Russian, Romanian",
+        "Country": "USA, Germany",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
+        "Metascore": "75",
+        "imdbRating": "8.4",
+        "imdbVotes": "181,302",
+        "imdbID": "tt3498820",
+        "Type": "movie",
+        "tomatoMeter": "90",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.6",
+        "tomatoReviews": "306",
+        "tomatoFresh": "274",
+        "tomatoRotten": "32",
+        "tomatoConsensus": "Captain America: Civil War begins the next wave of Marvel movies with an action-packed superhero blockbuster boasting a decidedly non-cartoonish plot and the courage to explore thought-provoking themes.",
+        "tomatoUserMeter": "91",
+        "tomatoUserRating": "4.4",
+        "tomatoUserReviews": "137911",
+        "tomatoURL": "http://www.rottentomatoes.com/m/captain_america_civil_war/",
+        "DVD": "N/A",
+        "BoxOffice": "$296.0M",
+        "Production": "Walt Disney Pictures",
+        "Website": "http://marvel.com/captainamerica#/home",
+        "Response": "True"
+      }
+    ],
+    "plot": "Vegna misheppnaðra aðgerða sem kostað hafa mannslíf hefur\nstjórnin ákveðið að hér eftir þurfi Avengers-hópurinn og aðrir\nmeð ofurkrafta að fylgja ströngum reglum. Við þetta vill Steve\nRogers ekki sætta sig þvert á vilja Tonys Stark og smám saman\nmagnast deilan uns á brestur bardagi sem á eftir að taka sinn toll."
+  },
+  {
+    "id": 9662,
+    "ids": {
+      "imdb": "2865120",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Ratchet and Clank",
+    "alternativeTitles": "",
+    "year": "2015",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 94,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/ratchet-1461144468.jpg",
+    "actors_abridged": [
+      {
+        "name": "James Arnold Taylor"
+      },
+      {
+        "name": "David Kaye"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Kevin Munroe"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.1",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "15:30",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5471"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 234004,
+        "results": [
+          {
+            "id": "53f7ea1fc3a36873520003da",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "qx1oyMUxmkc",
+            "name": "Ratchet & Clank Movie Announcement - Teaser",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/qx1oyMUxmkc?rel=0"
+          },
+          {
+            "id": "571ce98c92514135ff004b80",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "SNTaFzXlP8E",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/SNTaFzXlP8E?rel=0"
+          },
+          {
+            "id": "571ce9d7c3a3684e98001a05",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "odd8wLoS6QI",
+            "name": "\"Awesome!\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/odd8wLoS6QI?rel=0"
+          },
+          {
+            "id": "571cec8d92514128eb000200",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "6rVZKNJO5Cw",
+            "name": "\"Combat Gear\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/6rVZKNJO5Cw?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Ratchet & Clank",
+        "Year": "2016",
+        "Rated": "PG",
+        "Released": "29 Apr 2016",
+        "Runtime": "94 min",
+        "Genre": "Animation, Action, Adventure",
+        "Director": "Kevin Munroe, Jericca Cleland",
+        "Writer": "T.J. Fixman, Kevin Munroe, Gerry Swallow",
+        "Actors": "James Arnold Taylor, David Kaye, Jim Ward, Ian James Corlett",
+        "Plot": "When the galaxy comes under the threat of a nefarious space captain, a mechanic and his newfound robot ally join an elite squad of combatants to save the universe.",
+        "Language": "English",
+        "Country": "Hong Kong, Canada, USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BNDMxMjkzOTEzOV5BMl5BanBnXkFtZTgwNDExNjk5NzE@._V1_SX300.jpg",
+        "Metascore": "29",
+        "imdbRating": "6.2",
+        "imdbVotes": "1,395",
+        "imdbID": "tt2865120",
+        "Type": "movie",
+        "tomatoMeter": "16",
+        "tomatoImage": "rotten",
+        "tomatoRating": "4.1",
+        "tomatoReviews": "62",
+        "tomatoFresh": "10",
+        "tomatoRotten": "52",
+        "tomatoConsensus": "Ratchet & Clank may satisfy very young viewers, but compared to the many superior options available to families and animation enthusiasts, it offers little to truly recommend.",
+        "tomatoUserMeter": "52",
+        "tomatoUserRating": "3.3",
+        "tomatoUserReviews": "7898",
+        "tomatoURL": "http://www.rottentomatoes.com/m/ratchet_and_clank/",
+        "DVD": "N/A",
+        "BoxOffice": "$8.5M",
+        "Production": "Focus Features",
+        "Website": "http://www.ratchetandclankmovie.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Allir sem eiga eða hafa einhvern tíma átt PlayStation-leikjatölvu kannast við félagana Ratchett og Clank.  Félagarnir þurfa nú að stöðva hinn illa Drek frá því að eyðileggja plánetur í Solana-vetrarbrautinni. Þeir ganga til liðs við hóp litríkra og skemmtilegra persóna sem kallar sig Alheimsverðina. Saman keppast þau við að bjarga sólkerfinu á sama tíma og það reynir á vináttu þeirra. Ratchet og Clank þurfa að skoða hvað það merkir að vera hetja og hvað það þýðir að vera hugrakkur og trúr sjálfum sér."
+  },
+  {
+    "id": 9409,
+    "ids": {
+      "imdb": "3040964",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Jungle Book",
+    "alternativeTitles": "",
+    "year": "2015",
+    "certificateIS": "9 ára",
+    "durationMinutes": 105,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/9409_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Neel Sethi"
+      },
+      {
+        "name": "Ben Kingsley"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jon Favreau"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.9",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (B)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212414/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:20 (4)",
+            "purchase_url": "http://www.sambio.is/Websales/Show/212534/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 278927,
+        "results": [
+          {
+            "id": "571ce22892514115e2003074",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "HcgJRQWxKnw",
+            "name": "Official US Teaser Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/HcgJRQWxKnw?rel=0"
+          },
+          {
+            "id": "571ce28d92514126f70000dc",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "0jI6PDnyl0o",
+            "name": "\"Live the Legend\" TV Spot",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "url": "https://www.youtube.com/embed/0jI6PDnyl0o?rel=0"
+          },
+          {
+            "id": "56b812c192514178bf001b26",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "C4qgAaxB_pc",
+            "name": "Official Big Game Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/C4qgAaxB_pc?rel=0"
+          },
+          {
+            "id": "571ce2c6c3a368197c0066ed",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "TKRr_f85shA",
+            "name": "\"Show Them Respect\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/TKRr_f85shA?rel=0"
+          },
+          {
+            "id": "571ce1e4c3a36842aa000ef6",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "YW97nCUE3ZA",
+            "name": "Official UK Teaser Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/YW97nCUE3ZA?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Jungle Book",
+        "Year": "2016",
+        "Rated": "PG",
+        "Released": "15 Apr 2016",
+        "Runtime": "106 min",
+        "Genre": "Adventure, Drama, Family",
+        "Director": "Jon Favreau",
+        "Writer": "Justin Marks (screenplay), Rudyard Kipling (book)",
+        "Actors": "Neel Sethi, Bill Murray, Ben Kingsley, Idris Elba",
+        "Plot": "After a threat from the tiger, Sher Khan, forces him to flee the jungle, a man-cub named, Mowgli, embarks on a journey of self discovery with the aid of the panther, Bagheera, and the free spirited bear, Baloo.",
+        "Language": "English",
+        "Country": "USA",
+        "Awards": "N/A",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTc3NTUzNTI4MV5BMl5BanBnXkFtZTgwNjU0NjU5NzE@._V1_SX300.jpg",
+        "Metascore": "77",
+        "imdbRating": "7.9",
+        "imdbVotes": "71,977",
+        "imdbID": "tt3040964",
+        "Type": "movie",
+        "tomatoMeter": "95",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.7",
+        "tomatoReviews": "238",
+        "tomatoFresh": "225",
+        "tomatoRotten": "13",
+        "tomatoConsensus": "As lovely to behold as it is engrossing to watch, The Jungle Book is the rare remake that actually improves upon its predecessors -- all while setting a new standard for CGI.",
+        "tomatoUserMeter": "91",
+        "tomatoUserRating": "4.3",
+        "tomatoUserReviews": "61060",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_jungle_book_2015/",
+        "DVD": "N/A",
+        "BoxOffice": "$311.1M",
+        "Production": "Walt Disney Pictures",
+        "Website": "http://movies.disney.com/the-jungle-book-2016",
+        "Response": "True"
+      }
+    ],
+    "plot": "Munaðarlaus drengur, Mowgli, er alinn upp í skóginum með hjálp úlfahjarðar, bjarnar og svarts pandusdýrs, eftir að faðir hans er drepinn. Einn daginn þarf hann að flýja úr frumskóginum eftir að tígrisdýrið Shere Khan hótar að drepa hann. Pardusdýrið Bagheera og björninn Baloo hjálpa honum í leit hans að sjálfum sér, en á leiðinni hittir hann ýmsa aðila í skóginum sem vilja notfæra sér hann á ýmsa lund."
+  },
+  {
+    "id": 10466,
+    "ids": {
+      "imdb": "4080728",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Maður sem heitir Ove",
+    "alternativeTitles": "En man som heter Ove, Man called Ove",
+    "year": "2016",
+    "certificateIS": "6 ára",
+    "durationMinutes": 116,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/ove-1458815794.jpg",
+    "actors_abridged": [
+      {
+        "name": "Rolf Lassgård"
+      },
+      {
+        "name": "Zozan Akgün"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Hannes Holm"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.5",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "18:00",
+            "purchase_url": "https://midi.is/ref/?r=31cb221cbee549dc98f0bedfac5c34cd&p=/bio/7/5449"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "6 ára",
+      "color": "green",
+      "number": "6"
+    },
+    "trailers": [
+      {
+        "id": 348678,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "A Man Called Ove",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "25 Dec 2015",
+        "Runtime": "116 min",
+        "Genre": "Comedy, Drama",
+        "Director": "Hannes Holm",
+        "Writer": "Fredrik Backman (novel), Hannes Holm",
+        "Actors": "Rolf Lassgård, Zozan Akgün, Tobias Almborg, Viktor Baagøe",
+        "Plot": "59 year old Ove is the block's grumpy man who several years earlier was deposed as president of the condominium association, but he could not give a damn about being deposed and therefore ...",
+        "Language": "Swedish, Persian",
+        "Country": "Sweden",
+        "Awards": "3 wins & 5 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BYzkwNmYyZTEtZmI0Yi00ZDJlLTlkMzctNTg4NGM1ZDNhM2NkXkEyXkFqcGdeQXVyNDUwNTg4NTU@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "7.6",
+        "imdbVotes": "2,579",
+        "imdbID": "tt4080728",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "12",
+        "tomatoURL": "http://www.rottentomatoes.com/m/a_man_called_ove/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Ove er 59 ára gamall náungi sem við fyrstu kynni virðist frekar þurr á\nmanninn og leiðinlegur. Hann er afar fastheldinn á reglur og lætur\nnágranna sína hiklaust heyra það ef þeir eru ekki að standa sig að hans\nmati eða gera eitthvað vitlaust. En eftir því sem fólk kynnist Ove betur\nkemst það að því að önuglegheitin eru bara yfirborðið og þegar ung\nhjón með tvær litlar dætur flytja í nágrennið (og byrja á því að aka\nniður póstkassa Ove) fer í gang afar upplýsandi en fyndin atburðarás ..."
+  },
+  {
+    "id": 10378,
+    "ids": {
+      "imdb": "2401878",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Anomalisa",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10378_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Jennifer Jason Leigh"
+      },
+      {
+        "name": "Tom Noonan"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Charlie Kaufman"
+      },
+      {
+        "name": "Duke Johnson"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.4",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "18.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2625/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 291270,
+        "results": [
+          {
+            "id": "563934e7c3a3681b5201fd70",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "WQkHA3fHk_0",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/WQkHA3fHk_0?rel=0"
+          },
+          {
+            "id": "56698478c3a3683699005a08",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "LUloSK4x3qc",
+            "name": "Featurette",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Featurette",
+            "url": "https://www.youtube.com/embed/LUloSK4x3qc?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Anomalisa",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "21 Jan 2016",
+        "Runtime": "90 min",
+        "Genre": "Animation, Comedy, Drama",
+        "Director": "Duke Johnson, Charlie Kaufman",
+        "Writer": "Charlie Kaufman, Charlie Kaufman (play)",
+        "Actors": "David Thewlis, Jennifer Jason Leigh, Tom Noonan",
+        "Plot": "A man crippled by the mundanity of his life experiences something out of the ordinary.",
+        "Language": "English, Italian, Japanese",
+        "Country": "USA",
+        "Awards": "Nominated for 1 Oscar. Another 18 wins & 66 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTkyMzI2MzQ1N15BMl5BanBnXkFtZTgwNDg0MzQxNzE@._V1_SX300.jpg",
+        "Metascore": "88",
+        "imdbRating": "7.4",
+        "imdbVotes": "23,049",
+        "imdbID": "tt2401878",
+        "Type": "movie",
+        "tomatoMeter": "92",
+        "tomatoImage": "certified",
+        "tomatoRating": "8.5",
+        "tomatoReviews": "220",
+        "tomatoFresh": "203",
+        "tomatoRotten": "17",
+        "tomatoConsensus": "Anomalisa marks another brilliant and utterly distinctive highlight in Charlie Kaufman's filmography, and a thought-provoking treat for fans of introspective cinema.",
+        "tomatoUserMeter": "73",
+        "tomatoUserRating": "3.7",
+        "tomatoUserReviews": "16038",
+        "tomatoURL": "http://www.rottentomatoes.com/m/anomalisa/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Starburns Industries",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Ferð sem upphaflega farin í von um betra líf, endar með skelfingu þegar vígamenn elta óvopnaða menn og konur í yfir hin hættulegu landamæri Bandaríkjanna og Mexíkó."
+  },
+  {
+    "id": 10412,
+    "ids": {
+      "imdb": "4692234",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Arabian Nights: Volume 2 - The Desolate One",
+    "alternativeTitles": "",
+    "year": "2015",
+    "certificateIS": {
+      "is": "N/A",
+      "color": "green",
+      "number": "L"
+    },
+    "durationMinutes": 131,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/arabian-1456060477.jpg",
+    "actors_abridged": [
+      {
+        "name": "Crista Alfaiate"
+      },
+      {
+        "name": "João Pedro Bénard"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Miguel Gomes"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.3",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "17.15",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2588/"
+          }
+        ]
+      }
+    ],
+    "trailers": [
+      {
+        "id": 342179,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Arabian Nights: Volume 2 - The Desolate One",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "29 Jul 2015",
+        "Runtime": "131 min",
+        "Genre": "Drama",
+        "Director": "Miguel Gomes",
+        "Writer": "Telmo Churro, Miguel Gomes, Mariana Ricardo",
+        "Actors": "Crista Alfaiate, Chico Chapas, Luísa Cruz, Pedro Caldas",
+        "Plot": "Continuation of the Arabian Nights stories by the structure were adapted to modern life in Portugal in three innings and the third chapter \"The Owners of Dixie\" has three chapters.",
+        "Language": "English, German, Portuguese, French, Mandarin",
+        "Country": "Portugal, France, Germany, Switzerland",
+        "Awards": "11 wins & 16 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BNjMzMzcyODgzOF5BMl5BanBnXkFtZTgwNjczNjQzNzE@._V1_SX300.jpg",
+        "Metascore": "81",
+        "imdbRating": "7.4",
+        "imdbVotes": "656",
+        "imdbID": "tt4692234",
+        "Type": "movie",
+        "tomatoMeter": "100",
+        "tomatoImage": "fresh",
+        "tomatoRating": "8.0",
+        "tomatoReviews": "14",
+        "tomatoFresh": "14",
+        "tomatoRotten": "0",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "73",
+        "tomatoUserRating": "3.9",
+        "tomatoUserReviews": "46",
+        "tomatoURL": "http://www.rottentomatoes.com/m/arabian_nights_volume_2_the_desolate_one/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Komplizen Film",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Samtímaatburðir í Portúgal efnahagshrunsins eru fléttaðir inní formið sem sagnaþulurinn Scheherazade notaði á gullöld arabísks kveðskapar. Úr verður epískur sagnabálkur í þremur hlutum, meira en sex tíma langur, uppgjör leikstjóra við þjóðina sem fóstraði hann."
+  },
+  {
+    "id": 10355,
+    "ids": {
+      "imdb": "4263482",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Witch",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "16 ára",
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 5,
+        "Name": "Hrollvekja",
+        "NameEN\t": "Horror"
+      },
+      {
+        "ID": 38,
+        "Name": "Ráðgáta",
+        "NameEN\t": "Mystery"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10355_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Anya Taylor-Joy"
+      },
+      {
+        "name": "Ralph Ineson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Robert Eggers"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.8",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2578/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 310131,
+        "results": [
+          {
+            "id": "571cbec9c3a36864e000547f",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "iQXmlf3Sefg",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/iQXmlf3Sefg?rel=0"
+          },
+          {
+            "id": "571cbf08925141342b000821",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "Bo2OTEbz-jU",
+            "name": "Official Trailer - Paranoia",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/Bo2OTEbz-jU?rel=0"
+          },
+          {
+            "id": "571cc004c3a36864e00054b4",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "TIkW4StMAPE",
+            "name": "\"Peek a Boo\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/TIkW4StMAPE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Witch",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "19 Feb 2016",
+        "Runtime": "92 min",
+        "Genre": "Horror, Mystery",
+        "Director": "Robert Eggers",
+        "Writer": "Robert Eggers",
+        "Actors": "Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Harvey Scrimshaw",
+        "Plot": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic and possession.",
+        "Language": "English",
+        "Country": "USA, UK, Canada, Brazil",
+        "Awards": "6 wins & 2 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTY4MTU2NjMyNV5BMl5BanBnXkFtZTgwMzUwMDk4NzE@._V1_SX300.jpg",
+        "Metascore": "83",
+        "imdbRating": "6.9",
+        "imdbVotes": "36,037",
+        "imdbID": "tt4263482",
+        "Type": "movie",
+        "tomatoMeter": "91",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.8",
+        "tomatoReviews": "242",
+        "tomatoFresh": "220",
+        "tomatoRotten": "22",
+        "tomatoConsensus": "As thought-provoking as it is visually compelling, The Witch delivers a deeply unsettling exercise in slow-building horror that suggests great things for debuting writer-director Robert Eggers.",
+        "tomatoUserMeter": "55",
+        "tomatoUserRating": "3.1",
+        "tomatoUserReviews": "32347",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_witch_2015/",
+        "DVD": "17 May 2016",
+        "BoxOffice": "N/A",
+        "Production": "A24 Films",
+        "Website": "http://thewitch-movie.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "William og Katherine búa í New England árið 1630. Þau lifa sannkristnu lífi, á mörkum villtrar náttúrunnar, með fimm börn. Þegar nýfæddur sonur þeirra hverfur á dularfullan hátt, og uppskeran bregst, þá byrja fjölskyldumeðlimir að snúast hver gegn öðrum. Myndin fjallar um það hvernig fjölskylda verður fórnarlamb eigin ótta og kvíða, sem gerir hana að auðveldri bráð fyrir illskuna sem lúrir þar hjá."
+  },
+  {
+    "id": 10389,
+    "ids": {
+      "imdb": "4610244",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Other Side",
+    "alternativeTitles": "",
+    "year": "2015",
+    "certificateIS": "16 ára",
+    "durationMinutes": 92,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 39,
+        "Name": "Heimildarmynd",
+        "NameEN\t": "Documentary"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/other-1455817699.png",
+    "actors_abridged": [
+      {
+        "name": "Mark Kelley"
+      },
+      {
+        "name": "Lisa Allen"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Roberto Minervini"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.0",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "20.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2545/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 336220,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Other Side",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "28 May 2015",
+        "Runtime": "92 min",
+        "Genre": "Documentary, Drama",
+        "Director": "Roberto Minervini",
+        "Writer": "Roberto Minervini, Denise Ping Lee, Diego Romero (additional writer)",
+        "Actors": "Mark Kelley, Lisa Allen, James Lee Miller",
+        "Plot": "N/A",
+        "Language": "English",
+        "Country": "France, Italy",
+        "Awards": "6 wins & 2 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTQ3MzE0ODQxNV5BMl5BanBnXkFtZTgwODM2NzI4NjE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "7.0",
+        "imdbVotes": "324",
+        "imdbID": "tt4610244",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Heimildarmynd um olnbogabörn Ameríku. Við fylgjumst fyrst með lífi og ástum Mark og Lisu, eiturlyfjafíkla sem halda að eina leiðin til að verða edrú sé að fara í fangelsi í nokkra mánuði. Seinna fylgjumst við með hermönnum sem stunda heræfingar til að undirbúa sig fyrir borgarastyrjöldina sem þeir eru sannfærðir um að sé handan við hornið."
+  },
+  {
+    "id": 10130,
+    "ids": {
+      "imdb": "3792960",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Brand New Testament",
+    "alternativeTitles": "Glænýja testamentið, Le tout nouveau testament",
+    "year": "2015",
+    "certificateIS": "9 ára",
+    "durationMinutes": 113,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/guð_er_til-1445975634.jpg",
+    "actors_abridged": [
+      {
+        "name": "Pili Groyne"
+      },
+      {
+        "name": "Benoît Poelvoorde"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jaco van Dormael"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.2",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2299/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 330764,
+        "results": [
+          {
+            "id": "56be2562c3a36817f9004219",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "w5QNKcwe_lM",
+            "name": "The Brand New Testament (2015)",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/w5QNKcwe_lM?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Brand New Testament",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "01 Sep 2015",
+        "Runtime": "113 min",
+        "Genre": "Comedy, Fantasy",
+        "Director": "Jaco Van Dormael",
+        "Writer": "Thomas Gunzig, Jaco Van Dormael",
+        "Actors": "Pili Groyne, Benoît Poelvoorde, Catherine Deneuve, François Damiens",
+        "Plot": "Did you know that God is alive and lives in Brussels with his daughter?",
+        "Language": "French, German",
+        "Country": "Belgium, France, Luxembourg",
+        "Awards": "Nominated for 1 Golden Globe. Another 11 wins & 11 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMzAxNDQ0NjMxMF5BMl5BanBnXkFtZTgwNzYzNjU0NzE@._V1_SX300.jpg",
+        "Metascore": "80",
+        "imdbRating": "7.2",
+        "imdbVotes": "10,514",
+        "imdbID": "tt3792960",
+        "Type": "movie",
+        "tomatoMeter": "77",
+        "tomatoImage": "fresh",
+        "tomatoRating": "6.8",
+        "tomatoReviews": "26",
+        "tomatoFresh": "20",
+        "tomatoRotten": "6",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "551",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_brand_new_testament/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Guð er andstyggilegur bastarður frá Brussel en dóttir hans er staðráðin í því að kippa hlutunum í lag."
+  },
+  {
+    "id": 8676,
+    "ids": {
+      "imdb": "3074732",
+      "rotten": "771368635",
+      "tmdb": null
+    },
+    "title": "Hross í oss",
+    "alternativeTitles": "Of Horses and Men",
+    "year": "2013",
+    "certificateIS": "12 ára",
+    "durationMinutes": 96,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/hrosss-1375721995.jpg",
+    "actors_abridged": [
+      {
+        "name": "Ingvar Eggert Sigurðsson"
+      },
+      {
+        "name": "Charlotte Bøving"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Benedikt Erlingsson"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.9",
+      "rotten_audience": "75",
+      "rotten_critics": "100"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "20.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/26/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 217708,
+        "results": [
+          {
+            "id": "54494db5c3a3680fae001f59",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "zne8tM9B2_4",
+            "name": "Trailer 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/zne8tM9B2_4?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Of Horses and Men",
+        "Year": "2013",
+        "Rated": "N/A",
+        "Released": "11 Mar 2015",
+        "Runtime": "81 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Benedikt Erlingsson",
+        "Writer": "Benedikt Erlingsson",
+        "Actors": "Ingvar Eggert Sigurðsson, Charlotte Bøving, Johann Pall Oddson, Kristbjörg Kjeld",
+        "Plot": "A country romance about the human streak in the horse and the horse in the human. Love and death become interlaced and with immense consequences. The fortunes of the people in the country through the horses' perception.",
+        "Language": "English, Icelandic, Swedish, Russian, Spanish",
+        "Country": "Iceland, Germany, Norway",
+        "Awards": "20 wins & 15 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjI5OTM1OTA1NV5BMl5BanBnXkFtZTgwNjE3MTI1NDE@._V1_SX300.jpg",
+        "Metascore": "74",
+        "imdbRating": "6.9",
+        "imdbVotes": "1,840",
+        "imdbID": "tt3074732",
+        "Type": "movie",
+        "tomatoMeter": "100",
+        "tomatoImage": "fresh",
+        "tomatoRating": "7.7",
+        "tomatoReviews": "25",
+        "tomatoFresh": "25",
+        "tomatoRotten": "0",
+        "tomatoConsensus": "Well-crafted and resoundingly original, Of Horses and Men is as intelligent, inscrutable, and breathtakingly lovely as its titular equines.",
+        "tomatoUserMeter": "74",
+        "tomatoUserRating": "3.8",
+        "tomatoUserReviews": "1129",
+        "tomatoURL": "http://www.rottentomatoes.com/m/of_horses_and_men/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Music Box Films",
+        "Website": "http://hrosss.is/the-film/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Grimm sveitarómantík um hið mennska í hrossinu og hrossið í manninum. Ást, kynlíf, hross og dauði fléttast saman  með skelfilegum afleiðingum. Örlagasögur af  fólki í sveit frá sjónarhól hestsins.\nSólveig elskar Kolbein og Kolbeinn elskar Sólveigu en Kolbeinn\nelskar líka merina Gránu sem aftur á móti elskar folann Brún. Það\ner ekki víst að þessi saga endi vel.\nVernharður elskar vodka og Jarpur elskar Vernharð. Útlendingurinn\nGengis á hins vegar engan vodka en elskar hross eins og Jarp.\nÞað er ekki heldur víst að þessi saga fari vel.\nGrímur kann að meta hesta og fornar hestaslóðir en Egill er áhugamaður\num gaddavír og traktora. Þessi saga mun ekki enda vel.\nJóhanna elskar Rauðku en Rauðka elskar frelsið. Við gamalt sumarhús\nliggur særður maður. Þessi saga gæti endað vel.\nJuan Camillo elskar náttúruna og leitar almættisins á hálendi\nÍslands. En hrossið er gamalt og þreytt og þarfnast hvíldar. Þessi\nsaga getur farið hvernig sem er.\nEn hvernig sem hver og ein af þessum sögum fer og fléttast\nsaman þá sameinast menn og hross í eitt í réttunum á haustin!"
+  },
+  {
+    "id": 4716,
+    "ids": {
+      "imdb": "1590014",
+      "rotten": "x",
+      "tmdb": "46552"
+    },
+    "title": "Draumalandið",
+    "alternativeTitles": "",
+    "year": "2009",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 39,
+        "Name": "Heimildarmynd",
+        "NameEN\t": "Documentary"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/draumalandid.jpg",
+    "actors_abridged": [],
+    "directors_abridged": [
+      {
+        "name": "Þorfinnur Guðnason"
+      },
+      {
+        "name": "Andri Snær Magnason"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.2",
+      "rotten_audience": "0",
+      "rotten_critics": "0"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "18.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2883/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 46552,
+        "results": [
+          {
+            "id": "533ec6a6c3a3685448005414",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "OvH8tl4y0KE",
+            "name": "Dreamland trailer with subtitles",
+            "site": "YouTube",
+            "size": 360,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/OvH8tl4y0KE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Dreamland",
+        "Year": "2010",
+        "Rated": "N/A",
+        "Released": "30 Jan 2010",
+        "Runtime": "89 min",
+        "Genre": "Documentary",
+        "Director": "Þorfinnur Guðnason, Andri Snær Magnason",
+        "Writer": "N/A",
+        "Actors": "N/A",
+        "Plot": "Icelandic politicians and businesses try to lure aluminum production to the island country.",
+        "Language": "Icelandic",
+        "Country": "Iceland",
+        "Awards": "1 win & 3 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjEyMzUxNjk0MF5BMl5BanBnXkFtZTcwMDYzNDI2Nw@@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "7.2",
+        "imdbVotes": "100",
+        "imdbID": "tt1590014",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "http://www.rottentomatoes.com/m/draumalandid_2011/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Draumalandið er íslensk heimildarmynd í leikstjórn Þorfinns Guðnasonar og Andra Snæs Magnasonar og segir frá ýmsum óþekktum hliðum við uppbyggingu iðnaðar og efnahagslífs á Íslandi síðustu ár. Einbeitir myndin sér allra helst að því sem hefur gerst í orkumálum Íslendinga síðustu ár, byggingu Kárahnjúkastíflu og álvers ALCOA á Reyðarfirði. Reynir myndin að komast til botns í ýmsum málum sem virðast enn vera á huldu í \r\nþeim málum, eins og hvað fékk yfirvöld í raun og veru til að samþykkja að ráðast í slíka aðgerð, eins umdeild og hún reyndist verða. Voru það efnahagslegar forsendur? Var það stolt sem fékk okkur til að vilja virðast stór í augum heimsins? Eða trúðu yfirvöld því að það sem þau gerðu væri í raun best fyrir þjóðina? Og af hverju er svona mikil leynd í kringum allt málið?"
+  },
+  {
+    "id": 1853,
+    "ids": {
+      "imdb": "0237993",
+      "rotten": "20019",
+      "tmdb": "10989"
+    },
+    "title": "101 Reykjavík",
+    "alternativeTitles": "",
+    "year": "2000",
+    "certificateIS": "14 ára",
+    "durationMinutes": 88,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/1853_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Victoria Abril"
+      },
+      {
+        "name": "Hilmir Snær Guðnason"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Baltasar Kormákur"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.9",
+      "rotten_audience": "77",
+      "rotten_critics": "89"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2882/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "14 ára",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 10989,
+        "results": [
+          {
+            "id": "533ec66dc3a3685448001d64",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "k6T0snTFmsg",
+            "name": "101 Reykjavik   Trailer (480p)",
+            "site": "YouTube",
+            "size": 480,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/k6T0snTFmsg?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "101 Reykjavík",
+        "Year": "2000",
+        "Rated": "NOT RATED",
+        "Released": "01 Jun 2000",
+        "Runtime": "88 min",
+        "Genre": "Comedy, Romance",
+        "Director": "Baltasar Kormákur",
+        "Writer": "Hallgrímur Helgason (novel), Baltasar Kormákur",
+        "Actors": "Victoria Abril, Hilmir Snær Guðnason, Hanna María Karlsdóttir, Þrúður Vilhjálmsdóttir",
+        "Plot": "Thirty-year-old Hlynur still lives with his mother and spends his days drinking, watching porn and surfing the net while living off unemployment checks. A girl is interested in him, but he ...",
+        "Language": "English, Icelandic, Spanish",
+        "Country": "Iceland, Denmark, France, Norway, Germany",
+        "Awards": "9 wins & 11 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTIyNTEzMDE4N15BMl5BanBnXkFtZTYwMTk1NDk5._V1_SX300.jpg",
+        "Metascore": "68",
+        "imdbRating": "6.9",
+        "imdbVotes": "8,160",
+        "imdbID": "tt0237993",
+        "Type": "movie",
+        "tomatoMeter": "89",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.0",
+        "tomatoReviews": "46",
+        "tomatoFresh": "41",
+        "tomatoRotten": "5",
+        "tomatoConsensus": "A funny, offbeat romantic comedy about an unlikely tryst with the beautiful Icelandic landscape as a backdrop.",
+        "tomatoUserMeter": "77",
+        "tomatoUserRating": "3.5",
+        "tomatoUserReviews": "7304",
+        "tomatoURL": "http://www.rottentomatoes.com/m/101_reykjavik/",
+        "DVD": "15 Apr 2003",
+        "BoxOffice": "N/A",
+        "Production": "Menemsha",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Þó Reykjavík sé minni en flestir vilja játa og miðbærinn beinlínís dvergvaxinn, bætir borgin það upp með villtu næturlífi. Umkringdur fáklæddu holdi, reyk og hækkandi hitastigi er auðvelt að gleyma því að úti bíður heimskautaveðráttan í póstnúmerinu 101 Reykjavík. Ekki svo að skilja að Hlynur, hin seinheppna söguhetja 101 Reykjavík, hafi neina hugmynd um hvar hann er staddur í lífinu. Kynferðislíf hans er lítt skiljanlegt, allra síst honum sjálfum. Eftir að Lola, sem er spænskur flamingó kennari, með lesbískar hvatir flytur inn fer fyrst að draga til tíðinda. 101 Reykjavík hefur hlotið fjöldann allan af verðlaunum á kvikmyndahátíðum víðsvegar um heiminn. Sérstök efnistök og óhefðbundin samskipti kynjanna undir dúndrandi tónlist eiga stóran þátt í velgengni kvikmyndarinnar."
+  }
+]

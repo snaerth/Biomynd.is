@@ -1,0 +1,36 @@
+
+<div class="filter_container">
+    <div class="filter_grid first">
+        <div id="sb-search" class="sb-search">
+            <input class="sb-search-input" placeholder="Leita..." type="search" value="" name="search" id="search" ng-model="uc.filters.search" ng-change="uc.filter({filter: 'search', id: uc.filters.search, name : uc.filters.search})" />
+            <span class="sb-icon-search" toggle-search>
+                <svg class="icon icon-search" viewBox="0 0 32 32">
+                    <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+                </svg>
+            </span>
+        </div>
+    </div>
+    <div class="filter_grid min_width-210">
+        <select class="cs-select cs-skin-border months"  data-id="months" select-box ng-cloak type="months">
+            <option value="" disabled selected>MÁNUÐIR</option>
+            <option value="MÁNUÐIR" data-id="0">MÁNUÐIR</option>
+            <option ng-repeat="month in uc.filters.months track by month.id" value="{{month.name}}" data-id="{{month.id}}" select-filter-repeat type="months">{{month.name}}</option>
+        </select>
+    </div>
+
+    <div class="filter_grid min_width-210">
+        <select class="cs-select cs-skin-border genres" data-id="genres" select-box ng-cloak type="genres">
+            <option value="" disabled selected >TEGUND</option>
+            <option value="TEGUND" data-id="0">TEGUND</option>
+            <option ng-repeat="genre in uc.filters.genres" value="{{genre}}" data-id="{{genre}}" select-filter-repeat type="genres">{{genre}}</option>
+        </select>
+    </div>
+    
+    <div class="filter_grid">
+        <button ng-click="uc.reset()" class="reset_button">ENDURSTILLA
+            <svg class="icon icon-loop" viewBox="0 0 32 32">
+                <path d="M32 12h-12l4.485-4.485c-2.267-2.266-5.28-3.515-8.485-3.515s-6.219 1.248-8.485 3.515c-2.266 2.267-3.515 5.28-3.515 8.485s1.248 6.219 3.515 8.485c2.267 2.266 5.28 3.515 8.485 3.515s6.219-1.248 8.485-3.515c0.189-0.189 0.371-0.384 0.546-0.583l3.010 2.634c-2.933 3.349-7.239 5.464-12.041 5.464-8.837 0-16-7.163-16-16s7.163-16 16-16c4.418 0 8.418 1.791 11.313 4.687l4.687-4.687v12z"></path>
+            </svg>
+        </button>
+    </div>
+</div>

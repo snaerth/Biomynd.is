@@ -1,0 +1,33 @@
+<div ng-include src="'/views/templates/svg.html'"></div>
+
+<button class="menu-button filter tooltip_container" menu-button toggle-class="menu-button--open"><span>Menu</span></button>
+
+<div class="push_content">
+    <div class="content">
+        <div filter-opener>
+            <svg class="icon icon-filter">
+                <use xlink:href="#icon-filter" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+            <svg class="icon icon-exit hidden">
+                <use xlink:href="#icon-exit" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </div>
+        <div ng-controller="NavigationController as nav" ng-cloak class="nav" ng-show="nav.show">
+            <h1 class="main_heading animated fadeInUp mobile">{{nav.PageTitle}}</h1>
+            <header>
+                <nav class="menu menu-top">
+                    <ul class="menu_list">
+                        <li class="menu_item" ng-repeat="page in nav.pages track by page.name" ng-class="{active:page.active}" ng-click="setActive($index)"><a href="{{page.href}}" class="menu_link">{{page.name}}</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1 class="main_heading animated fadeInUp">{{nav.PageTitle}}</h1>
+        </div>
+        
+        <ng-view>
+            Augnablik....
+        </ng-view>
+    </div>
+</div>
+
+<div ng-include src="'/views/templates/photoswipe.html'"></div>

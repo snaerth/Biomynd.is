@@ -1,0 +1,74 @@
+<div upcoming-filters ng-cloak class="filter_container--outer" ng-swipe-left="uc.filterToggle()"></div>
+
+<div class="filter_grid--100 error animated fadeInUp" ng-if="uc.errorMessage">
+    {{uc.errorMessage}} <span ng-click="uc.reset()" class="underline" ng-if="uc.resetButton">Endurstilla.</span>
+</div>
+
+<div class="toggle-view-container" toggle-view="{{!uc.isPosterDesign ? 'POSTER' : 'LIST'}}">
+    <div class="list-grid-toggle">
+        <div class="icon {{!uc.isPosterDesign ? 'icon-grid' : ''}}">
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+            <div class="icon-bar"></div>
+        </div>
+        <span class="label">List</span>
+    </div>
+</div>
+
+<div class="movies_container_upper animated fadeInUp" ng-show="uc.isPosterDesign" ng-swipe-right="uc.filterToggle()">
+    <loading ng-if="uc.isLoading"></loading>
+
+    <div ng-repeat="movie in uc.movies track by (movie.id + movie.title)" class="movie_container animated fadeIn" ng-if="movie.omdb[0].Poster || movie.poster">
+        <div class="overflow_hidden" ng-click="uc.movieInfo(movie)">
+            <div class="movie_container__inner {{movie.certificate.color}}">
+                <!-- open-modal-->
+                <img image-onload ng-src="{{movie.poster}}" alt="{{movie.title}}" />
+                <div class="movie_container__overlay"></div>
+            </div>
+        </div>
+        <div class="image_loader"></div>
+        <p class="movie_container__title">{{movie.title}}</p>
+        <p class="movie_container__date">{{movie['release-dateIS']}}</p>
+    </div>
+</div>
+
+
+<div class="movies_container_upper list animated fadeInUp" ng-show="!uc.isPosterDesign" ng-swipe-right="uc.filterToggle()">
+    <div class="list_container">
+        <div ng-repeat="movie in uc.movies track by (movie.id + movie.title)" ng-model="movies">
+            <div class="item" ng-click="uc.movieInfo(movie)">
+                <div class="movie_info_container__poster smaller">
+                    <img image-onload-list ng-src="{{movie.poster}}" alt="{{movie.title}}" />
+                    <div class="image_loader"></div>
+                </div>
+                <div class="list_content">
+                    <svg class="icon icon-next" viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                    </svg>
+                    <h2>{{movie.title}}</h2>
+                    <ul class="horizontal_info_line info">
+                        <li ng-show="mi.movie.durationMinutes && movie.durationMinutes !== '0'">
+                            <span class="roboto">{{movie.durationMinutes}}</span>
+                        </li>
+                        <li ng-if="movie['release-dateIS'] !== ''">
+                            <span class="roboto">{{movie['release-dateIS']}}</span>
+                        </li>
+                        <li class="imdb" ng-show="movie.ids.imdb.length && movie.omdb[0] && movie.omdb[0].imdbRating && movie.omdb[0].imdbRating !== 'N/A'">
+                            <a href="http://www.imdb.com/title/tt{{movie.ids.imdb}}" target="_blank" ng-class="{'not-active':uc.isMobile}">
+                                <svg class="icon icon-star" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z" fill="#f5de50" />
+                                    <path d="M0 0h18v18H0z" fill="none" />
+                                </svg>
+                                <span class="roboto">{{movie.ratings.imdb || movie.omdb[0].imdbRating}}</span></a>
+                        </li>
+                        <li class="tomato" ng-show="movie.omdb[0] && movie.omdb[0].tomatoRating && movie.omdb[0].tomatoRating != 'N/A'">
+                            <a href="{{movie.omdb[0].tomatoURL}}" target="_blank" ng-class="{'not-active':uc.isMobile}"><img src="images/rotten.png" alt="Rotten tomatoes logo" /><span class="roboto">{{ movie.omdb[0].tomatoRating === 'N/A' ? '' : movie.omdb[0].tomatoRating }}</span></a>
+                        </li>
+                    </ul>
+                    <p class="plot">{{movie.plot}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

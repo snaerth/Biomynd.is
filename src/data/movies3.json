@@ -1,0 +1,1055 @@
+[
+  {
+    "id": 10629,
+    "ids": {
+      "imdb": "",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Úti að aka - Á reykspúandi kadilakk yfir Ameríku",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "",
+    "durationMinutes": 60,
+    "genres": [
+      39,
+      75
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/úti_að_aka-1464101393.jpg",
+    "actors_abridged": [
+      {
+        "name": "Einar Kárason"
+      },
+      {
+        "name": "Ólafur Gunnarsson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Sveinn M. Sveinsson"
+      }
+    ],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": "5",
+        "schedule": [
+          {
+            "time": "20.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2881/"
+          }
+        ]
+      }
+    ],
+    "trailers": [],
+    "omdb": []
+  },
+  {
+    "id": 10378,
+    "ids": {
+      "imdb": "2401878",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Anomalisa",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "12 ára",
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10378_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Jennifer Jason Leigh"
+      },
+      {
+        "name": "Tom Noonan"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Charlie Kaufman"
+      },
+      {
+        "name": "Duke Johnson"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.4",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "18.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2625/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 291270,
+        "results": [
+          {
+            "id": "563934e7c3a3681b5201fd70",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "WQkHA3fHk_0",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/WQkHA3fHk_0?rel=0"
+          },
+          {
+            "id": "56698478c3a3683699005a08",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "LUloSK4x3qc",
+            "name": "Featurette",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Featurette",
+            "url": "https://www.youtube.com/embed/LUloSK4x3qc?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Anomalisa",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "21 Jan 2016",
+        "Runtime": "90 min",
+        "Genre": "Animation, Comedy, Drama",
+        "Director": "Duke Johnson, Charlie Kaufman",
+        "Writer": "Charlie Kaufman, Charlie Kaufman (play)",
+        "Actors": "David Thewlis, Jennifer Jason Leigh, Tom Noonan",
+        "Plot": "A man crippled by the mundanity of his life experiences something out of the ordinary.",
+        "Language": "English, Italian, Japanese",
+        "Country": "USA",
+        "Awards": "Nominated for 1 Oscar. Another 18 wins & 66 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTkyMzI2MzQ1N15BMl5BanBnXkFtZTgwNDg0MzQxNzE@._V1_SX300.jpg",
+        "Metascore": "88",
+        "imdbRating": "7.4",
+        "imdbVotes": "23,049",
+        "imdbID": "tt2401878",
+        "Type": "movie",
+        "tomatoMeter": "92",
+        "tomatoImage": "certified",
+        "tomatoRating": "8.5",
+        "tomatoReviews": "220",
+        "tomatoFresh": "203",
+        "tomatoRotten": "17",
+        "tomatoConsensus": "Anomalisa marks another brilliant and utterly distinctive highlight in Charlie Kaufman's filmography, and a thought-provoking treat for fans of introspective cinema.",
+        "tomatoUserMeter": "73",
+        "tomatoUserRating": "3.7",
+        "tomatoUserReviews": "16038",
+        "tomatoURL": "http://www.rottentomatoes.com/m/anomalisa/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Starburns Industries",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Ferð sem upphaflega farin í von um betra líf, endar með skelfingu þegar vígamenn elta óvopnaða menn og konur í yfir hin hættulegu landamæri Bandaríkjanna og Mexíkó."
+  },
+  {
+    "id": 10412,
+    "ids": {
+      "imdb": "4692234",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Arabian Nights: Volume 2 - The Desolate One",
+    "alternativeTitles": "",
+    "year": "2015",
+    "certificateIS": {
+      "is": "N/A",
+      "color": "green",
+      "number": "L"
+    },
+    "durationMinutes": 131,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/arabian-1456060477.jpg",
+    "actors_abridged": [
+      {
+        "name": "Crista Alfaiate"
+      },
+      {
+        "name": "João Pedro Bénard"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Miguel Gomes"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.3",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "17.15",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2588/"
+          }
+        ]
+      }
+    ],
+    "trailers": [
+      {
+        "id": 342179,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Arabian Nights: Volume 2 - The Desolate One",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "29 Jul 2015",
+        "Runtime": "131 min",
+        "Genre": "Drama",
+        "Director": "Miguel Gomes",
+        "Writer": "Telmo Churro, Miguel Gomes, Mariana Ricardo",
+        "Actors": "Crista Alfaiate, Chico Chapas, Luísa Cruz, Pedro Caldas",
+        "Plot": "Continuation of the Arabian Nights stories by the structure were adapted to modern life in Portugal in three innings and the third chapter \"The Owners of Dixie\" has three chapters.",
+        "Language": "English, German, Portuguese, French, Mandarin",
+        "Country": "Portugal, France, Germany, Switzerland",
+        "Awards": "11 wins & 16 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BNjMzMzcyODgzOF5BMl5BanBnXkFtZTgwNjczNjQzNzE@._V1_SX300.jpg",
+        "Metascore": "81",
+        "imdbRating": "7.4",
+        "imdbVotes": "656",
+        "imdbID": "tt4692234",
+        "Type": "movie",
+        "tomatoMeter": "100",
+        "tomatoImage": "fresh",
+        "tomatoRating": "8.0",
+        "tomatoReviews": "14",
+        "tomatoFresh": "14",
+        "tomatoRotten": "0",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "73",
+        "tomatoUserRating": "3.9",
+        "tomatoUserReviews": "46",
+        "tomatoURL": "http://www.rottentomatoes.com/m/arabian_nights_volume_2_the_desolate_one/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Komplizen Film",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Samtímaatburðir í Portúgal efnahagshrunsins eru fléttaðir inní formið sem sagnaþulurinn Scheherazade notaði á gullöld arabísks kveðskapar. Úr verður epískur sagnabálkur í þremur hlutum, meira en sex tíma langur, uppgjör leikstjóra við þjóðina sem fóstraði hann."
+  },
+  {
+    "id": 10355,
+    "ids": {
+      "imdb": "4263482",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Witch",
+    "alternativeTitles": "",
+    "year": "2016",
+    "certificateIS": "16 ára",
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 5,
+        "Name": "Hrollvekja",
+        "NameEN\t": "Horror"
+      },
+      {
+        "ID": 38,
+        "Name": "Ráðgáta",
+        "NameEN\t": "Mystery"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/10355_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Anya Taylor-Joy"
+      },
+      {
+        "name": "Ralph Ineson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Robert Eggers"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.8",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2578/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 310131,
+        "results": [
+          {
+            "id": "571cbec9c3a36864e000547f",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "iQXmlf3Sefg",
+            "name": "Official Trailer",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/iQXmlf3Sefg?rel=0"
+          },
+          {
+            "id": "571cbf08925141342b000821",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "Bo2OTEbz-jU",
+            "name": "Official Trailer - Paranoia",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/Bo2OTEbz-jU?rel=0"
+          },
+          {
+            "id": "571cc004c3a36864e00054b4",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "TIkW4StMAPE",
+            "name": "\"Peek a Boo\"",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "url": "https://www.youtube.com/embed/TIkW4StMAPE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Witch",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "19 Feb 2016",
+        "Runtime": "92 min",
+        "Genre": "Horror, Mystery",
+        "Director": "Robert Eggers",
+        "Writer": "Robert Eggers",
+        "Actors": "Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Harvey Scrimshaw",
+        "Plot": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic and possession.",
+        "Language": "English",
+        "Country": "USA, UK, Canada, Brazil",
+        "Awards": "6 wins & 2 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTY4MTU2NjMyNV5BMl5BanBnXkFtZTgwMzUwMDk4NzE@._V1_SX300.jpg",
+        "Metascore": "83",
+        "imdbRating": "6.9",
+        "imdbVotes": "36,037",
+        "imdbID": "tt4263482",
+        "Type": "movie",
+        "tomatoMeter": "91",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.8",
+        "tomatoReviews": "242",
+        "tomatoFresh": "220",
+        "tomatoRotten": "22",
+        "tomatoConsensus": "As thought-provoking as it is visually compelling, The Witch delivers a deeply unsettling exercise in slow-building horror that suggests great things for debuting writer-director Robert Eggers.",
+        "tomatoUserMeter": "55",
+        "tomatoUserRating": "3.1",
+        "tomatoUserReviews": "32347",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_witch_2015/",
+        "DVD": "17 May 2016",
+        "BoxOffice": "N/A",
+        "Production": "A24 Films",
+        "Website": "http://thewitch-movie.com/",
+        "Response": "True"
+      }
+    ],
+    "plot": "William og Katherine búa í New England árið 1630. Þau lifa sannkristnu lífi, á mörkum villtrar náttúrunnar, með fimm börn. Þegar nýfæddur sonur þeirra hverfur á dularfullan hátt, og uppskeran bregst, þá byrja fjölskyldumeðlimir að snúast hver gegn öðrum. Myndin fjallar um það hvernig fjölskylda verður fórnarlamb eigin ótta og kvíða, sem gerir hana að auðveldri bráð fyrir illskuna sem lúrir þar hjá."
+  },
+  {
+    "id": 10389,
+    "ids": {
+      "imdb": "4610244",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Other Side",
+    "alternativeTitles": "",
+    "year": "2015",
+    "certificateIS": "16 ára",
+    "durationMinutes": 92,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 39,
+        "Name": "Heimildarmynd",
+        "NameEN\t": "Documentary"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/other-1455817699.png",
+    "actors_abridged": [
+      {
+        "name": "Mark Kelley"
+      },
+      {
+        "name": "Lisa Allen"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Roberto Minervini"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.0",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "20.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2545/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 336220,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Other Side",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "28 May 2015",
+        "Runtime": "92 min",
+        "Genre": "Documentary, Drama",
+        "Director": "Roberto Minervini",
+        "Writer": "Roberto Minervini, Denise Ping Lee, Diego Romero (additional writer)",
+        "Actors": "Mark Kelley, Lisa Allen, James Lee Miller",
+        "Plot": "N/A",
+        "Language": "English",
+        "Country": "France, Italy",
+        "Awards": "6 wins & 2 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTQ3MzE0ODQxNV5BMl5BanBnXkFtZTgwODM2NzI4NjE@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "7.0",
+        "imdbVotes": "324",
+        "imdbID": "tt4610244",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Heimildarmynd um olnbogabörn Ameríku. Við fylgjumst fyrst með lífi og ástum Mark og Lisu, eiturlyfjafíkla sem halda að eina leiðin til að verða edrú sé að fara í fangelsi í nokkra mánuði. Seinna fylgjumst við með hermönnum sem stunda heræfingar til að undirbúa sig fyrir borgarastyrjöldina sem þeir eru sannfærðir um að sé handan við hornið."
+  },
+  {
+    "id": 10130,
+    "ids": {
+      "imdb": "3792960",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The Brand New Testament",
+    "alternativeTitles": "Glænýja testamentið, Le tout nouveau testament",
+    "year": "2015",
+    "certificateIS": "9 ára",
+    "durationMinutes": 113,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/guð_er_til-1445975634.jpg",
+    "actors_abridged": [
+      {
+        "name": "Pili Groyne"
+      },
+      {
+        "name": "Benoît Poelvoorde"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jaco van Dormael"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.2",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2299/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 330764,
+        "results": [
+          {
+            "id": "56be2562c3a36817f9004219",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "w5QNKcwe_lM",
+            "name": "The Brand New Testament (2015)",
+            "site": "YouTube",
+            "size": 720,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/w5QNKcwe_lM?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Brand New Testament",
+        "Year": "2015",
+        "Rated": "N/A",
+        "Released": "01 Sep 2015",
+        "Runtime": "113 min",
+        "Genre": "Comedy, Fantasy",
+        "Director": "Jaco Van Dormael",
+        "Writer": "Thomas Gunzig, Jaco Van Dormael",
+        "Actors": "Pili Groyne, Benoît Poelvoorde, Catherine Deneuve, François Damiens",
+        "Plot": "Did you know that God is alive and lives in Brussels with his daughter?",
+        "Language": "French, German",
+        "Country": "Belgium, France, Luxembourg",
+        "Awards": "Nominated for 1 Golden Globe. Another 11 wins & 11 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMzAxNDQ0NjMxMF5BMl5BanBnXkFtZTgwNzYzNjU0NzE@._V1_SX300.jpg",
+        "Metascore": "80",
+        "imdbRating": "7.2",
+        "imdbVotes": "10,514",
+        "imdbID": "tt3792960",
+        "Type": "movie",
+        "tomatoMeter": "77",
+        "tomatoImage": "fresh",
+        "tomatoRating": "6.8",
+        "tomatoReviews": "26",
+        "tomatoFresh": "20",
+        "tomatoRotten": "6",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "551",
+        "tomatoURL": "http://www.rottentomatoes.com/m/the_brand_new_testament/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Guð er andstyggilegur bastarður frá Brussel en dóttir hans er staðráðin í því að kippa hlutunum í lag."
+  },
+  {
+    "id": 8676,
+    "ids": {
+      "imdb": "3074732",
+      "rotten": "771368635",
+      "tmdb": null
+    },
+    "title": "Hross í oss",
+    "alternativeTitles": "Of Horses and Men",
+    "year": "2013",
+    "certificateIS": "12 ára",
+    "durationMinutes": 96,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/hrosss-1375721995.jpg",
+    "actors_abridged": [
+      {
+        "name": "Ingvar Eggert Sigurðsson"
+      },
+      {
+        "name": "Charlotte Bøving"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Benedikt Erlingsson"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.9",
+      "rotten_audience": "75",
+      "rotten_critics": "100"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "20.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/26/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 217708,
+        "results": [
+          {
+            "id": "54494db5c3a3680fae001f59",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "zne8tM9B2_4",
+            "name": "Trailer 1",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/zne8tM9B2_4?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Of Horses and Men",
+        "Year": "2013",
+        "Rated": "N/A",
+        "Released": "11 Mar 2015",
+        "Runtime": "81 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Benedikt Erlingsson",
+        "Writer": "Benedikt Erlingsson",
+        "Actors": "Ingvar Eggert Sigurðsson, Charlotte Bøving, Johann Pall Oddson, Kristbjörg Kjeld",
+        "Plot": "A country romance about the human streak in the horse and the horse in the human. Love and death become interlaced and with immense consequences. The fortunes of the people in the country through the horses' perception.",
+        "Language": "English, Icelandic, Swedish, Russian, Spanish",
+        "Country": "Iceland, Germany, Norway",
+        "Awards": "20 wins & 15 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMjI5OTM1OTA1NV5BMl5BanBnXkFtZTgwNjE3MTI1NDE@._V1_SX300.jpg",
+        "Metascore": "74",
+        "imdbRating": "6.9",
+        "imdbVotes": "1,840",
+        "imdbID": "tt3074732",
+        "Type": "movie",
+        "tomatoMeter": "100",
+        "tomatoImage": "fresh",
+        "tomatoRating": "7.7",
+        "tomatoReviews": "25",
+        "tomatoFresh": "25",
+        "tomatoRotten": "0",
+        "tomatoConsensus": "Well-crafted and resoundingly original, Of Horses and Men is as intelligent, inscrutable, and breathtakingly lovely as its titular equines.",
+        "tomatoUserMeter": "74",
+        "tomatoUserRating": "3.8",
+        "tomatoUserReviews": "1129",
+        "tomatoURL": "http://www.rottentomatoes.com/m/of_horses_and_men/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "Music Box Films",
+        "Website": "http://hrosss.is/the-film/",
+        "Response": "True"
+      }
+    ],
+    "plot": "Grimm sveitarómantík um hið mennska í hrossinu og hrossið í manninum. Ást, kynlíf, hross og dauði fléttast saman  með skelfilegum afleiðingum. Örlagasögur af  fólki í sveit frá sjónarhól hestsins.\nSólveig elskar Kolbein og Kolbeinn elskar Sólveigu en Kolbeinn\nelskar líka merina Gránu sem aftur á móti elskar folann Brún. Það\ner ekki víst að þessi saga endi vel.\nVernharður elskar vodka og Jarpur elskar Vernharð. Útlendingurinn\nGengis á hins vegar engan vodka en elskar hross eins og Jarp.\nÞað er ekki heldur víst að þessi saga fari vel.\nGrímur kann að meta hesta og fornar hestaslóðir en Egill er áhugamaður\num gaddavír og traktora. Þessi saga mun ekki enda vel.\nJóhanna elskar Rauðku en Rauðka elskar frelsið. Við gamalt sumarhús\nliggur særður maður. Þessi saga gæti endað vel.\nJuan Camillo elskar náttúruna og leitar almættisins á hálendi\nÍslands. En hrossið er gamalt og þreytt og þarfnast hvíldar. Þessi\nsaga getur farið hvernig sem er.\nEn hvernig sem hver og ein af þessum sögum fer og fléttast\nsaman þá sameinast menn og hross í eitt í réttunum á haustin!"
+  },
+  {
+    "id": 3766,
+    "ids": {
+      "imdb": "1094594",
+      "rotten": "770677739",
+      "tmdb": "14793"
+    },
+    "title": "Heima",
+    "alternativeTitles": "Sigur Rós - Heima",
+    "year": "2007",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 97,
+    "genres": [
+      {
+        "ID": 37,
+        "Name": "Tónlistarmynd",
+        "NameEN\t": "Music"
+      },
+      {
+        "ID": 39,
+        "Name": "Heimildarmynd",
+        "NameEN\t": "Documentary"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/heima.jpg",
+    "actors_abridged": [
+      {
+        "name": "Jón Þór Birgisson"
+      },
+      {
+        "name": "Georg Hólm"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Denni Karlsson"
+      }
+    ],
+    "ratings": {
+      "imdb": "8.6",
+      "rotten_audience": "96",
+      "rotten_critics": "100"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "18.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2884/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 14793,
+        "results": [
+          {
+            "id": "533ec678c3a3685448002852",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "RZYIfUdIyfs",
+            "name": "Trailer 1",
+            "site": "YouTube",
+            "size": 360,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/RZYIfUdIyfs?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Sigur Rós: Heima",
+        "Year": "2007",
+        "Rated": "N/A",
+        "Released": "05 Oct 2007",
+        "Runtime": "97 min",
+        "Genre": "Documentary, Music",
+        "Director": "Dean DeBlois",
+        "Writer": "N/A",
+        "Actors": "Amiina, Hildur Arsaelsdottir, Jon Thor Birgisson, Orri P. Dyrason",
+        "Plot": "In the summer of 2006, Sigur Rós returned home to play a series of free, unannounced concerts for the people of Iceland. This film documents their already legendary tour with intimate ...",
+        "Language": "English, Icelandic",
+        "Country": "Iceland",
+        "Awards": "1 nomination.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTY0NjI0ODY3NV5BMl5BanBnXkFtZTcwNDg5MDU1MQ@@._V1_SX300.jpg",
+        "Metascore": "N/A",
+        "imdbRating": "8.6",
+        "imdbVotes": "6,875",
+        "imdbID": "tt1094594",
+        "Type": "movie",
+        "tomatoMeter": "90",
+        "tomatoImage": "fresh",
+        "tomatoRating": "7.5",
+        "tomatoReviews": "10",
+        "tomatoFresh": "9",
+        "tomatoRotten": "1",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "96",
+        "tomatoUserRating": "4.5",
+        "tomatoUserReviews": "4463",
+        "tomatoURL": "http://www.rottentomatoes.com/m/heima/",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Heima er heimildamynd um hljómsveitarferðalag Sigur Rósar um Ísland sumarið 2006. Hljómsveitin spilaði meðal annars á Miklatúni, Ásbyrgi, Seyðisfirði, Kirkjubæjarklaustri og fleiri stöðum um allt Ísland."
+  },
+  {
+    "id": 1853,
+    "ids": {
+      "imdb": "0237993",
+      "rotten": "20019",
+      "tmdb": "10989"
+    },
+    "title": "101 Reykjavík",
+    "alternativeTitles": "",
+    "year": "2000",
+    "certificateIS": "14 ára",
+    "durationMinutes": 88,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/1853_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Victoria Abril"
+      },
+      {
+        "name": "Hilmir Snær Guðnason"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Baltasar Kormákur"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.9",
+      "rotten_audience": "77",
+      "rotten_critics": "89"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00",
+            "purchase_url": "https://www.tix.is/is/buyingflow/tickets/2882/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "14 ára",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 10989,
+        "results": [
+          {
+            "id": "533ec66dc3a3685448001d64",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "k6T0snTFmsg",
+            "name": "101 Reykjavik   Trailer (480p)",
+            "site": "YouTube",
+            "size": 480,
+            "type": "Trailer",
+            "url": "https://www.youtube.com/embed/k6T0snTFmsg?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "101 Reykjavík",
+        "Year": "2000",
+        "Rated": "NOT RATED",
+        "Released": "01 Jun 2000",
+        "Runtime": "88 min",
+        "Genre": "Comedy, Romance",
+        "Director": "Baltasar Kormákur",
+        "Writer": "Hallgrímur Helgason (novel), Baltasar Kormákur",
+        "Actors": "Victoria Abril, Hilmir Snær Guðnason, Hanna María Karlsdóttir, Þrúður Vilhjálmsdóttir",
+        "Plot": "Thirty-year-old Hlynur still lives with his mother and spends his days drinking, watching porn and surfing the net while living off unemployment checks. A girl is interested in him, but he ...",
+        "Language": "English, Icelandic, Spanish",
+        "Country": "Iceland, Denmark, France, Norway, Germany",
+        "Awards": "9 wins & 11 nominations.",
+        "Poster": "http://ia.media-imdb.com/images/M/MV5BMTIyNTEzMDE4N15BMl5BanBnXkFtZTYwMTk1NDk5._V1_SX300.jpg",
+        "Metascore": "68",
+        "imdbRating": "6.9",
+        "imdbVotes": "8,160",
+        "imdbID": "tt0237993",
+        "Type": "movie",
+        "tomatoMeter": "89",
+        "tomatoImage": "certified",
+        "tomatoRating": "7.0",
+        "tomatoReviews": "46",
+        "tomatoFresh": "41",
+        "tomatoRotten": "5",
+        "tomatoConsensus": "A funny, offbeat romantic comedy about an unlikely tryst with the beautiful Icelandic landscape as a backdrop.",
+        "tomatoUserMeter": "77",
+        "tomatoUserRating": "3.5",
+        "tomatoUserReviews": "7304",
+        "tomatoURL": "http://www.rottentomatoes.com/m/101_reykjavik/",
+        "DVD": "15 Apr 2003",
+        "BoxOffice": "N/A",
+        "Production": "Menemsha",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Þó Reykjavík sé minni en flestir vilja játa og miðbærinn beinlínís dvergvaxinn, bætir borgin það upp með villtu næturlífi. Umkringdur fáklæddu holdi, reyk og hækkandi hitastigi er auðvelt að gleyma því að úti bíður heimskautaveðráttan í póstnúmerinu 101 Reykjavík. Ekki svo að skilja að Hlynur, hin seinheppna söguhetja 101 Reykjavík, hafi neina hugmynd um hvar hann er staddur í lífinu. Kynferðislíf hans er lítt skiljanlegt, allra síst honum sjálfum. Eftir að Lola, sem er spænskur flamingó kennari, með lesbískar hvatir flytur inn fer fyrst að draga til tíðinda. 101 Reykjavík hefur hlotið fjöldann allan af verðlaunum á kvikmyndahátíðum víðsvegar um heiminn. Sérstök efnistök og óhefðbundin samskipti kynjanna undir dúndrandi tónlist eiga stóran þátt í velgengni kvikmyndarinnar."
+  }
+]

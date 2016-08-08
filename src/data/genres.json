@@ -1,0 +1,187 @@
+[
+  {
+    "ID": 1,
+    "Name": "Spennumynd",
+    "NameEN\t": "Action"
+  },
+  {
+    "ID": 2,
+    "Name": "Gamanmynd",
+    "NameEN\t": "Comedy"
+  },
+  {
+    "ID": 3,
+    "Name": "Rómantísk",
+    "NameEN\t": "Romance"
+  },
+  {
+    "ID": 4,
+    "Name": "Drama",
+    "NameEN\t": "Drama"
+  },
+  {
+    "ID": 5,
+    "Name": "Hrollvekja",
+    "NameEN\t": "Horror"
+  },
+  {
+    "ID": 6,
+    "Name": "Spennutryllir",
+    "NameEN\t": "Thriller"
+  },
+  {
+    "ID": 7,
+    "Name": "Vestri",
+    "NameEN\t": "Western"
+  },
+  {
+    "ID": 8,
+    "Name": "Glæpamynd",
+    "NameEN\t": "Crime"
+  },
+  {
+    "ID": 31,
+    "Name": "Vísindaskáldskapur",
+    "NameEN\t": "Sci-Fi"
+  },
+  {
+    "ID": 32,
+    "Name": "Ævintýramynd",
+    "NameEN\t": "Adventure"
+  },
+  {
+    "ID": 33,
+    "Name": "Barnamynd",
+    "NameEN\t": "Children"
+  },
+  {
+    "ID": 34,
+    "Name": "Fjölskyldumynd",
+    "NameEN\t": "Family"
+  },
+  {
+    "ID": 35,
+    "Name": "Söngleikur",
+    "NameEN\t": "Musical"
+  },
+  {
+    "ID": 36,
+    "Name": "Stríðsmynd",
+    "NameEN\t": "War"
+  },
+  {
+    "ID": 37,
+    "Name": "Tónlistarmynd",
+    "NameEN\t": "Music"
+  },
+  {
+    "ID": 38,
+    "Name": "Ráðgáta",
+    "NameEN\t": "Mystery"
+  },
+  {
+    "ID": 39,
+    "Name": "Heimildarmynd",
+    "NameEN\t": "Documentary"
+  },
+  {
+    "ID": 40,
+    "Name": "Söguleg",
+    "NameEN\t": "History"
+  },
+  {
+    "ID": 41,
+    "Name": "Stuttmynd",
+    "NameEN\t": "Short"
+  },
+  {
+    "ID": 42,
+    "Name": "Æviágrip",
+    "NameEN\t": "Biography"
+  },
+  {
+    "ID": 43,
+    "Name": "Dýralífsmynd",
+    "NameEN\t": "Wildlife"
+  },
+  {
+    "ID": 44,
+    "Name": "Fræðslumynd",
+    "NameEN\t": "Educational"
+  },
+  {
+    "ID": 45,
+    "Name": "Erótík",
+    "NameEN\t": "Adult"
+  },
+  {
+    "ID": 69,
+    "Name": "RIFF",
+    "NameEN\t": "RIFF"
+  },
+  {
+    "ID": 70,
+    "Name": "Teiknimynd",
+    "NameEN\t": "Animation"
+  },
+  {
+    "ID": 71,
+    "Name": "Svarthvít",
+    "NameEN\t": "Black and White"
+  },
+  {
+    "ID": 72,
+    "Name": "Bardagamynd",
+    "NameEN\t": null
+  },
+  {
+    "ID": 73,
+    "Name": "Dansmynd",
+    "NameEN\t": "Dance"
+  },
+  {
+    "ID": 74,
+    "Name": "Unglingamynd",
+    "NameEN\t": "Teenage"
+  },
+  {
+    "ID": 75,
+    "Name": "Íslensk mynd",
+    "NameEN\t": "Icelandic movie"
+  },
+  {
+    "ID": 76,
+    "Name": "Sjónvarpsmynd",
+    "NameEN\t": "TV movie"
+  },
+  {
+    "ID": 77,
+    "Name": "Sjónvarpssería",
+    "NameEN\t": "TV series"
+  },
+  {
+    "ID": 78,
+    "Name": "Sjónvarpsþáttur",
+    "NameEN\t": "TV show"
+  },
+  {
+    "ID": 79,
+    "Name": "Beint á vídeó",
+    "NameEN\t": "Video"
+  },
+  {
+    "ID": 80,
+    "Name": "Íþróttamynd",
+    "NameEN\t": "Sport"
+  },
+  {
+    "ID": 81,
+    "Name": "Íslensk meðframleiðsla",
+    "NameEN\t": "Icelandic co-production"
+  },
+  {
+    "ID": 82,
+    "Name": "Myndlist",
+    "NameEN\t": "Art video"
+  }
+]

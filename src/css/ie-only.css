@@ -1,0 +1,9 @@
+.movie_container:hover img {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -moz-transition-property: none;
+    -webkit-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+}
