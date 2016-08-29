@@ -13,7 +13,7 @@ Upcoming controller
 
     function UpcomingController($scope, $routeParams, $route, $location, $timeout, httpservice, movieservice, UtilsService, FilterService, API_SERVICE_INFO) {
         var uc = this;
-        
+
         /**
          * Initialize variables
          */
@@ -57,7 +57,7 @@ Upcoming controller
             search: ''
         };
 
-        
+
         /**
          * Initialize functions
          */
@@ -158,26 +158,39 @@ Upcoming controller
             return {
                 isk: day + '.' + uc.months[monthIndex].id + ' ' + year
             };
-        }    
+        }
 
         function getMovies() {
             var chachedMovies = lscache.get('upcoming');
             if (chachedMovies !== null) {
                 uc.allMovies = uc.initialFiltering(chachedMovies);
-                uc.isLoading = false;
             } else {
-                // Get all theaters
-                httpservice.getJson(uc.apiInfo.baseUrl + 'upcoming/', uc.apiInfo.token).then(function (data) {
+                var errorMsg = 'Ekki tókst að sækja myndir. Reyndu aftur síðar.';
+                // Get all movies from servcie
+                httpservice.getJson('/data/upcoming.json').then(function (data) {
                     if (data.length > 0) {
                         lscache.set('upcoming', data, 60);
                         uc.allMovies = uc.initialFiltering(data);
                     } else {
-                        uc.errorMessage = 'Ekki tókst að sækja myndir. Reyndu aftur síðar.';
+                        getDataFromService();
                     }
-                    uc.isLoading = false;
                 }).catch(function (message) {
-                    uc.errorMessage = 'Ekki tókst að sækja kvikmyndahús. Reyndu aftur síðar.';
+                    getDataFromService();
                 });
+
+                function getDataFromService() {
+                    httpservice.getJson(uc.apiInfo.baseUrl + 'upcoming/', uc.apiInfo.token).then(function (data) {
+                        if (data.length > 0) {
+                            lscache.set('upcoming', data, 60);
+                            uc.allMovies = uc.initialFiltering(data);
+                        } else {
+                            uc.errorMessage = errorMsg;
+                        }
+                    }).catch(function (message) {
+                        uc.errorMessage = errorMsg;
+                        uc.isLoading = false;
+                    });
+                }
             }
         };
 
@@ -186,7 +199,7 @@ Upcoming controller
                 monthIndex = date.getMonth();
             return uc.months[monthIndex].id;
         }
-        
+
         initalize();
 
         // Initalize
@@ -253,6 +266,8 @@ Upcoming controller
             uc.movies = data.sort(function (a, b) {
                 return new Date(a['release-date']) - new Date(b['release-date']);
             });
+
+            uc.isLoading = false;
             return uc.movies;
         };
 
@@ -284,11 +299,34 @@ Upcoming controller
          * --------------------------------------
          * @param {movie} current movie obj
          */
-        function movieInfo(movie) {
-            movieservice.setMovie(movie);
-            sessionStorage.setItem('fromIndex', true);
-            $location.path('/info').search('id', movie['_id']).search('type', 'upcoming');
-        };
+        function movieInfo(movie, event) {
+            var animate = !uc.isMobile && uc.isPosterDesign;
+            if (animate) {
+                var el = event.target;
+                var elPos = el.getBoundingClientRect();
+                var doc = document.documentElement;
+                var docLeft = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+                var docTop = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+
+                var newEl = document.createElement('div');
+                newEl.className = 'image_animation_loader';
+                $('ng-view').append(newEl);
+
+                newEl.style.width = elPos.width + 'px';
+                newEl.style.height = elPos.height + 'px';
+                newEl.style.left = docLeft + elPos.left + 'px';
+                newEl.style.top = docTop + elPos.top + 'px';
+
+                $timeout(function () {
+                    classie.addClass(newEl, 'open');
+                }, 0);
+            }
+            $timeout(function () {
+                movieservice.setMovie(movie);
+                sessionStorage.setItem('fromIndex', true);
+                $location.path('/info').search('id', movie['_id']).search('type', 'upcoming');
+            }, animate ? 1000 : 0);
+        }
 
         $scope.$on('uiChange', function (targetScope, data) {
             switch (data) {

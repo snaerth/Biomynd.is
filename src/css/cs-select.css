@@ -4,10 +4,9 @@ div.cs-select {
 	vertical-align: middle;
 	position: relative;
 	text-align: left;
-	background: #f38902;
+	background: #ffeb3b;
 	z-index: 100;
 	width: 100%;
-	max-width: 500px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -44,7 +43,7 @@ div.cs-select:focus {
 /* Placeholder and selected option */
 .cs-select > span {
 	padding-right: 3em;
-    color:#fff;
+    color:#5f6669;
 }
 
 .cs-select > span::after,
@@ -92,7 +91,7 @@ div.cs-active {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-    border: 2px solid #fff;
+    border: 2px solid #c8c8c8;
     border-top:none;
     background: #1d1e21;
 }
@@ -102,7 +101,7 @@ div.cs-active {
 }
 
 .cs-select ul li.cs-focus span {
-	background-color: #fff;
+	background-color: #c8c8c8;
 }
 
 /* Optgroup and optgroup label */
@@ -135,34 +134,34 @@ div.cs-skin-border {
 }
 
 .cs-skin-border > span {
-	border: 2px solid #cecece;
+	border: 2px solid #5f6669;
 	-webkit-transition: background 0.2s, border-color 0.2s;
 	transition: background 0.2s, border-color 0.2s;
 }
 
 .cs-active .cs-skin-border > span, .cs-skin-border > span:hover {
-	border: 2px solid #fff;
+	border: 2px solid #c8c8c8;
 }
 
 .cs-skin-border > span::after,
 .cs-skin-border .cs-selected span::after {
 	font-family: 'icomoon';
 	content: '\e000';
-    color: #cecece;
+    color: #c8c8c8;
 }
 
 .cs-skin-border:hover > span::after,
 .cs-skin-border:hover .cs-selected span::after {
-    color: #fff;
+    color: #c8c8c8;
 }
 
 
 .cs-active.cs-skin-border > span::after {
-    color: #fff;
+    color: #c8c8c8;
 }
 
 .cs-active.cs-skin-border .cs-selected span::after {
-	color: #f38902;
+	color: #ffeb3b;
 }
 
 .cs-skin-border ul span::after {
@@ -172,7 +171,7 @@ div.cs-skin-border {
 
 .cs-skin-border .cs-selected span::after {
 	content: '\e00e';
-    color: #4ea05b;
+    color: #ffeb3b;
 	font-size: 2em;
 	opacity: 1;
 	-webkit-transition: opacity 0.2s;
@@ -181,11 +180,11 @@ div.cs-skin-border {
 
 .cs-skin-border.cs-active > span {
 	background: #1d1e21;
-	border-color: #fff;
+	border-color: #c8c8c8;
 }
 
 .cs-skin-border .cs-options {
-	color: #fff;
+	color: #5f6669;
 	font-size: 0.75em;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, visibility 0s 0.2s;
@@ -199,7 +198,7 @@ div.cs-skin-border {
 }
 
 .cs-skin-border ul span {
-	padding: 0.5em 0.8em;
+	padding: 0.5em 0.5em;
 	font-size: 15px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -207,8 +206,8 @@ div.cs-skin-border {
 
 .cs-skin-border .cs-options li span:hover,
 .cs-skin-border li.cs-focus span {
-	background: rgba(255,255,255, 1);
-	color: #f38902;
+	background: #ffeb3b;
+	color: #5f6669;
 }
 
 /*** Special  ***/
@@ -219,20 +218,20 @@ div.cs-skin-border {
 }
 
 span.cs-placeholder {
-    color: #cecece;
+    color: #c8c8c8;
 }
 
 .cs-placeholder.active {
-	color: #f38902;
+	color: #ffeb3b;
 }
 
 span.cs-placeholder:hover, .cs-active span.cs-placeholder {
-    color: #fff;
+    color: #c8c8c8;
 	background:#1d1e21;
 }
 
 .cs-selected {
-	color: #f38902;
+	color: #ffeb3b;
 }
 
 .showtimes ul li:first-child {
@@ -240,5 +239,5 @@ span.cs-placeholder:hover, .cs-active span.cs-placeholder {
 }
 
 .cs-select ul li:first-child {
-	color: #999;
+	color: #c8c8c8;
 }

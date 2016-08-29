@@ -2,7 +2,7 @@
     {{mi.errorMessage}} <a href="/" class="underline">Til baka</a>
 </div>
 
-<loading ng-if="mi.isLoading" class="info"></loading>
+<loading ng-if="mi.isLoading" class="center"></loading>
 
 <section class="movie_info_container" ng-if="!mi.errorMessage">
     <div back-button class="back_button"></div>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
 
-                <div class="movie_poster_container" ng-if="!mi.imagesExist">
+                <div class="movie_poster_container" ng-if="!mi.imagesExist && !mi.isLoading">
                     <div class="movie_info_container__poster animated fadeIn">
                         <img ng-src="{{mi.movie.poster}}" alt="{{mi.movie.title}}" image-onload backup-image="images/placeholder.png" />
                         <div class="movie_container__overlay"></div>

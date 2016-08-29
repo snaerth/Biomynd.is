@@ -14,13 +14,11 @@ Now playing controller
 
     function HomeController($scope, $routeParams, $route, $location, $timeout, httpservice, UtilsService, FilterService, API_SERVICE_INFO, movieservice) {
         var vm = this;
-
         /**
          * Initialize variables
          */
         vm.apiInfo = API_SERVICE_INFO;
         vm.movies;
-        vm.movie;
         vm.images;
         vm.extraImages;
         vm.allMovies;
@@ -54,7 +52,7 @@ Now playing controller
                         return;
                     });
                 }
-            }(),
+            } (),
             certificates: [
                 { name: '16 ára', id: '16' },
                 { name: '12 ára', id: '12' },
@@ -264,18 +262,33 @@ Now playing controller
             if (chachedMovies !== null) {
                 vm.initialFiltering(chachedMovies);
             } else {
+                var errorMsg = 'Ekki tókst að sækja myndir. Reyndu aftur síðar.';
                 // Get all movies from servcie
-                httpservice.getJson(vm.apiInfo.baseUrl + 'movies-by-dates/' + vm.day, vm.apiInfo.token).then(function (data) {
+                httpservice.getJson('/data/movies' + vm.day + '.json').then(function (data) {
                     if (data.length > 0) {
                         lscache.set('movies' + vm.day, data, 60);
                         data = vm.initialFiltering(data);
                     } else {
-                        vm.errorMessage = "Ekki tókst að sækja myndir. Reyndu aftur síðar.";
+                        getDataFromService();
                     }
                 }).catch(function (message) {
-                    vm.errorMessage = "Ekki tókst að sækja myndir. Reyndu aftur síðar.";
-                    vm.isLoading = false;
+                    getDataFromService();
                 });
+                
+                function getDataFromService() {
+                    // Get all movies from servcie
+                    httpservice.getJson(vm.apiInfo.baseUrl + 'movies-by-dates/' + vm.day, vm.apiInfo.token).then(function (data) {
+                        if (data.length > 0) {
+                            lscache.set('movies' + vm.day, data, 60);
+                            data = vm.initialFiltering(data);
+                        } else {
+                            vm.errorMessage = errorMsg;
+                        }
+                    }).catch(function (message) {
+                        vm.errorMessage = errorMsg;
+                        vm.isLoading = false;
+                    });
+                }
             }
         };
 
@@ -284,11 +297,34 @@ Now playing controller
          * --------------------------------------
          * @param {movie} current movie obj
          */
-        function movieInfo(movie) {
-            movieservice.setMovie(movie);
-            sessionStorage.setItem('fromIndex', true);
-            $location.path('/info').search('id', movie['_id']).search('type', 'movies');
-        };
+        function movieInfo(movie, event) {
+            var animate = !vm.isMobile && vm.isPosterDesign;
+            if (animate) {
+                var el = event.target;
+                var elPos = el.getBoundingClientRect();
+                var doc = document.documentElement;
+                var docLeft = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+                var docTop = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+
+                var newEl = document.createElement('div');
+                newEl.className = 'image_animation_loader';
+                $('ng-view').append(newEl);
+
+                newEl.style.width = elPos.width + 'px';
+                newEl.style.height = elPos.height + 'px';
+                newEl.style.left = docLeft + elPos.left + 'px';
+                newEl.style.top = docTop + elPos.top + 'px';
+
+                $timeout(function () {
+                    classie.addClass(newEl, 'open');
+                }, 0);
+            }
+            $timeout(function () {
+                movieservice.setMovie(movie);
+                sessionStorage.setItem('fromIndex', true);
+                $location.path('/info').search('id', movie['_id']).search('type', 'movies');
+            }, animate ? 1000 : 0);
+        }
 
         vm.initalize();
 
@@ -329,16 +365,15 @@ Now playing controller
                 } ());
             }
 
-
             vm.movies = data;
             vm.allMovies = vm.movies;
             // Filter movies by highest grade
             vm.filter({
                 filter: 'mixfilter',
                 id: 1,
-                name : 'Hæsta einkunn'
+                name: 'Hæsta einkunn'
             });
-            
+
             vm.isLoading = false;
             return data;
         };

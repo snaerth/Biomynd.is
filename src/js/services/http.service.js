@@ -23,7 +23,8 @@
 
 			var options = {
 				method: 'GET',
-				url: url
+				url: url,
+				cache: false
 			};
 
 			if (headers) {
