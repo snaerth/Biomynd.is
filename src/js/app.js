@@ -43,7 +43,7 @@ Angular initialize and configs
                     redirectTo: '/' 
                 });
 
-                //$locationProvider.html5Mode(true).hashPrefix('!');
+                $locationProvider.html5Mode(true).hashPrefix('!');
         }])
 
         .filter('trusted', ['$sce', function ($sce) {

@@ -69,7 +69,7 @@
 
                 <div class="movie_poster_container" ng-if="!mi.imagesExist && !mi.isLoading">
                     <div class="movie_info_container__poster animated fadeIn">
-                        <img ng-src="{{mi.movie.poster}}" alt="{{mi.movie.title}}" image-onload backup-image="images/placeholder.png" />
+                        <img ng-src="{{mi.movie.poster}}" alt="{{mi.movie.title}}" image-onload />
                         <div class="movie_container__overlay"></div>
                         <div class="movie_container__certificateIS visible {{mi.movie.certificate.color}}" ng-if="mi.movie.certificate.number">
                             <p class="{{mi.movie.certificate.color}}">{{mi.movie.certificate.number}}</p>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div ng-tab-body ng-if="mi.movie.images">
+            <div ng-tab-body ng-if="mi.movie.images.length > 0">
                 <div class="movies_container_upper animated fadeInUp">
                     <div ng-repeat="image in mi.movie.imagesChunk track by $index" class="backdrop" ng-click="mi.openPhotoswipe(1920, 1080, $index, 'images')">
                         <div class="overflow_hidden">

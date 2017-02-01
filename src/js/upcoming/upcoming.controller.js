@@ -20,16 +20,20 @@ Upcoming controller
         uc.allMovies;
         uc.apiInfo = API_SERVICE_INFO;
         uc.errorMessage = '';
-        uc.movies;
-        uc.movie;
-        uc.images;
+        uc.movies = [];
+        uc.movie = [];
+        uc.images = [];
         uc.isLoading = true;
         uc.isMobile = UtilsService.isMobile();
+
+        var sessionIsPosterDesign = sessionStorage.getItem('isPosterDesign');
+        sessionIsPosterDesign = JSON.parse(sessionIsPosterDesign);
         if (window.innerWidth < 600 || document.body.clientWidth < 600) {
-            uc.isPosterDesign = false;
+            uc.isPosterDesign = sessionIsPosterDesign !== null ? sessionIsPosterDesign : false;
         } else {
-            uc.isPosterDesign = true;
+            uc.isPosterDesign = sessionIsPosterDesign !== null ? sessionIsPosterDesign : true;
         }
+
         uc.orderFilter = [];
         uc.tempMovie = [];
         uc.resetButton = false;
@@ -64,7 +68,7 @@ Upcoming controller
         uc.filter = filter;
         uc.filterToggle = FilterService.filterToggle;
         uc.formatDate = formatDate;
-        uc.getMovies = getMovies;
+        uc.getDataFromService = getDataFromService;
         uc.getMonthId = getMonthId;
         uc.movieInfo = movieInfo;
         uc.initalize = initalize;
@@ -160,39 +164,18 @@ Upcoming controller
             };
         }
 
-        function getMovies() {
-            var chachedMovies = lscache.get('upcoming');
-            if (chachedMovies !== null) {
-                uc.allMovies = uc.initialFiltering(chachedMovies);
-            } else {
-                var errorMsg = 'Ekki tókst að sækja myndir. Reyndu aftur síðar.';
-                // Get all movies from servcie
-                httpservice.getJson('/data/upcoming.json').then(function (data) {
-                    if (data.length > 0) {
-                        lscache.set('upcoming', data, 60);
-                        uc.allMovies = uc.initialFiltering(data);
-                    } else {
-                        getDataFromService();
-                    }
-                }).catch(function (message) {
-                    getDataFromService();
-                });
-
-                function getDataFromService() {
-                    httpservice.getJson(uc.apiInfo.baseUrl + 'upcoming/', uc.apiInfo.token).then(function (data) {
-                        if (data.length > 0) {
-                            lscache.set('upcoming', data, 60);
-                            uc.allMovies = uc.initialFiltering(data);
-                        } else {
-                            uc.errorMessage = errorMsg;
-                        }
-                    }).catch(function (message) {
-                        uc.errorMessage = errorMsg;
-                        uc.isLoading = false;
-                    });
+        function getDataFromService() {
+            httpservice.getJson(uc.apiInfo.baseUrl + 'upcoming/', uc.apiInfo.token).then(function (data) {
+                if (data.length > 0) {
+                    uc.allMovies = uc.initialFiltering(data);
+                } else {
+                    uc.errorMessage = 'Ekki tókst að sækja myndir að svo stöddu';
                 }
-            }
-        };
+            }).catch(function (message) {
+                uc.errorMessage = 'Ekki tókst að sækja myndir að svo stöddu';
+                uc.isLoading = false;
+            });
+        }
 
         function getMonthId(format) {
             var date = new Date(format),
@@ -204,7 +187,7 @@ Upcoming controller
 
         // Initalize
         function initalize() {
-            uc.getMovies();
+            uc.getDataFromService();
         };
 
         initFilter();
@@ -337,6 +320,7 @@ Upcoming controller
                     uc.isPosterDesign = true;
                     break;
             }
+            sessionStorage.setItem('isPosterDesign', uc.isPosterDesign);
             $scope.$apply();
         });
 

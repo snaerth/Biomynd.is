@@ -17,18 +17,7 @@ require('dotenv').config();
 var token = '';
 var apiBaseUrl = 'http://api.kvikmyndir.is/';
 
-createDirectorys();
 runFetchTokenTask();
-
-// Creates directorys
-function createDirectorys() {
-    var dirs = ['./public/data', './logs'];
-    for (var i = 0; i < dirs.length; i++) {
-        if (!fs.existsSync(dirs[i])) {
-            fs.mkdirSync(dirs[i]);
-        }
-    }
-}
 
 // Gets token from api
 function fetchToken(url, username, password) {
@@ -55,75 +44,12 @@ function runFetchTokenTask() {
         var response = JSON.parse(data);
         if (response.success && response.token) {
             token = response.token;
-
-            for (var i = 0; i < 5; i++) {
-                (function(i) {
-                    getData(apiBaseUrl + 'movies-by-dates/' + i, token).then(function (result) {
-                        saveData('./public/data/movies' + i + '.json', result);
-                    }).catch(function (error) {
-                        logError(err);
-                    });
-                }(i));
-            }
-            getData(apiBaseUrl + 'upcoming/', token).then(function (result) {
-                saveData('./public/data/upcoming.json', result);
-            }).catch(function (error) {
-                logError(err);
-            });
-        }
-    });
-}
-
-function getData(url, token) {
-    var deferred = q.defer();
-    var options = {
-        url: url,
-        headers: {
-            'x-access-token': token
-        }
-    };
-
-    function callback(error, response, body) {
-        if (!error && response.statusCode == 200) {
-            deferred.resolve(body);
-        } else {
-            deferred.reject(error);
-        }
-    }
-
-    request(options, callback);
-
-    return deferred.promise;
-}
-
-function saveData(path, data) {
-    fs.writeFile(path, data, function (err) {
-        if (err) {
-            logError(err);
-        }
-    });
-}
-
-function logError(err) {
-    var errorPath = './logs/error.txt';
-    var errorObj = {
-        date: dateFormat(Date.now(), "dddd, mmmm dS, yyyy, h:MM:ss TT"),
-        error: err
-    };
-
-    errorObj = JSON.stringify(errorObj) + '\n';
-
-    fs.exists(errorPath, function (exists) {
-        if (exists) {
-            fs.appendFile(errorPath, errorObj);
-        } else {
-            fs.writeFile(errorPath, errorObj);
         }
     });
 }
 
 // Task for renewing token that runs every 6 hours
-new CronJob('0 */6 * * *', function () {
+new CronJob('0 */3 * * *', function () {
     runFetchTokenTask();
 }, null, true, 'Atlantic/Reykjavik');
 
@@ -152,8 +78,14 @@ app.get('/', function (req, res, next) {
     });
 });
 
-app.get('*', function(req, res){
-  res.send('what???', 404);
+app.get('*', function (req, res, next) {
+    res.setHeader('Cache-Control', 'public, max-age=80000');
+    res.render('index', {
+        api: {
+            token: token,
+            baseUrl: apiBaseUrl
+        }
+    });
 });
 
 app.listen(4000);

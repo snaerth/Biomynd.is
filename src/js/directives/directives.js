@@ -9,15 +9,20 @@ Directives
             return {
                 restrict: 'A',
                 link: function (scope, element, attrs) {
+                    var imageLoader = element.parent().parent()[0].nextElementSibling;
+                    var movieMissingEl = '<div>MYND</div><div>VANTAR</div>';
                     element.on('load', function (event, err) {
-                        if (element.parent().parent()[0].nextElementSibling) {
-                            element.parent().parent()[0].nextElementSibling.className += ' hidden';
+                        if (imageLoader) {
+                            imageLoader.className += ' hidden';
                         }
                     });
 
                     element.bind('error', function (err) {
-                        if (attrs.backupImage !== '') {
-                            attrs.$set('src', attrs.backupImage);
+                        if (imageLoader) {
+                            imageLoader.innerHTML = movieMissingEl;
+                        } else {
+                            $(element).addClass('hidden');
+                            $(element).siblings('.image_loader').append(movieMissingEl);
                         }
                     });
                 }
@@ -46,7 +51,7 @@ Directives
                 restrict: 'A',
                 link: function (scope, element, attrs) {
                     element.bind('click', function () {
-                        if(sessionStorage.getItem('fromIndex')) {
+                        if (sessionStorage.getItem('fromIndex')) {
                             $window.history.back();
                         } else {
                             $window.location.href = '/';
@@ -61,11 +66,20 @@ Directives
             return {
                 restrict: 'A',
                 link: function (scope, element) {
+                    var children = element.parent()[0].children;
                     element.on('load', function () {
-                        var children = element.parent()[0].children;
                         for (var i = 0; i < children.length; i++) {
-                            if (children[i].className == "image_loader") {
+                            if (children[i].className === "image_loader") {
                                 children[i].className += ' hidden';
+                                break;
+                            }
+                        }
+                    });
+
+                    element.bind('error', function (err) {
+                        for (var i = 0; i < children.length; i++) {
+                            if (children[i].className === "image_loader") {
+                                children[i].innerHTML = '<div>MYND</div><div>VANTAR</div>';
                                 break;
                             }
                         }
@@ -176,7 +190,7 @@ Directives
             return {
                 restrict: 'A',
                 link: function (scope, element, attrs) {
-                    element.bind('click', function(e) {
+                    element.bind('click', function (e) {
                         var search = $('#sb-search');
                         search.toggleClass('sb-search-open');
                         search.find('input').focus();
@@ -280,7 +294,7 @@ Directives
 
                     function clickHandler(ev) {
                         var type = attrs.toggleView;
-                        if(type === 'POSTER') {
+                        if (type === 'POSTER') {
                             $(element).find('.icon-grid').removeClass('icon-grid');
                             type = 'POSTER';
                         } else {

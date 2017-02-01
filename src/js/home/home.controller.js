@@ -26,12 +26,16 @@ Now playing controller
         vm.theaters = "";
         vm.isLoading = true;
         vm.day = $routeParams.day;
+        if(!vm.day) vm.day = 0;
         vm.errorMessage = "";
         vm.isMobile = UtilsService.isMobile();
+
+        var sessionIsPosterDesign = sessionStorage.getItem('isPosterDesign');
+        sessionIsPosterDesign = JSON.parse(sessionIsPosterDesign);
         if (window.innerWidth < 600 || document.body.clientWidth < 600) {
-            vm.isPosterDesign = false;
+            vm.isPosterDesign = sessionIsPosterDesign !== null ? sessionIsPosterDesign : false;
         } else {
-            vm.isPosterDesign = true;
+            vm.isPosterDesign = sessionIsPosterDesign !== null ? sessionIsPosterDesign : true;
         }
         vm.resetButton = false;
         vm.orderFilter = [];
@@ -57,6 +61,7 @@ Now playing controller
                 { name: '16 ára', id: '16' },
                 { name: '12 ára', id: '12' },
                 { name: '9 ára', id: '9' },
+                { name: '6 ára', id: '6' },
                 { name: 'Leyfð öllum', id: 'L' }
             ],
             showtimes: [
@@ -84,13 +89,12 @@ Now playing controller
             search: ''
         };
 
-
         /**
          * Initialize functions
          */
         vm.filter = filter;
         vm.filterToggle = FilterService.filterToggle;
-        vm.getMovies = getMovies;
+        vm.getDataFromService = getDataFromService;
         vm.movieInfo = movieInfo;
         vm.initalize = initalize;
         vm.initFilter = initFilter;
@@ -251,46 +255,19 @@ Now playing controller
             }
         };
 
-        /**
-         * Gets all movie data from service
-         */
-        function getMovies() {
-            if (!vm.day) {
-                vm.day = 0;
-            }
-            var chachedMovies = lscache.get('movies' + vm.day);
-            if (chachedMovies !== null) {
-                vm.initialFiltering(chachedMovies);
-            } else {
-                var errorMsg = 'Ekki tókst að sækja myndir. Reyndu aftur síðar.';
-                // Get all movies from servcie
-                httpservice.getJson('/data/movies' + vm.day + '.json').then(function (data) {
-                    if (data.length > 0) {
-                        lscache.set('movies' + vm.day, data, 60);
-                        data = vm.initialFiltering(data);
-                    } else {
-                        getDataFromService();
-                    }
-                }).catch(function (message) {
-                    getDataFromService();
-                });
-                
-                function getDataFromService() {
-                    // Get all movies from servcie
-                    httpservice.getJson(vm.apiInfo.baseUrl + 'movies-by-dates/' + vm.day, vm.apiInfo.token).then(function (data) {
-                        if (data.length > 0) {
-                            lscache.set('movies' + vm.day, data, 60);
-                            data = vm.initialFiltering(data);
-                        } else {
-                            vm.errorMessage = errorMsg;
-                        }
-                    }).catch(function (message) {
-                        vm.errorMessage = errorMsg;
-                        vm.isLoading = false;
-                    });
+        function getDataFromService() {
+            // Get all movies from servcie
+            httpservice.getJson(vm.apiInfo.baseUrl + 'movies-by-dates/' + vm.day, vm.apiInfo.token).then(function (data) {
+                if (data.length > 0) {
+                    data = vm.initialFiltering(data);
+                } else {
+                    vm.errorMessage = 'Ekki tókst að sækja myndir að svo stöddu.';
                 }
-            }
-        };
+            }).catch(function (message) {
+                vm.errorMessage = 'Ekki tókst að sækja myndir að svo stöddu.';
+                vm.isLoading = false;
+            });
+        }
 
         /**
          * Sets current movie into service and sets route to info route
@@ -332,7 +309,7 @@ Now playing controller
          * Initalize
          */
         function initalize() {
-            vm.getMovies();
+            vm.getDataFromService();
         };
 
         /**
@@ -367,13 +344,6 @@ Now playing controller
 
             vm.movies = data;
             vm.allMovies = vm.movies;
-            // Filter movies by highest grade
-            vm.filter({
-                filter: 'mixfilter',
-                id: 1,
-                name: 'Hæsta einkunn'
-            });
-
             vm.isLoading = false;
             return data;
         };
@@ -411,12 +381,13 @@ Now playing controller
                     vm.isPosterDesign = true;
                     break;
             }
+            sessionStorage.setItem('isPosterDesign', vm.isPosterDesign);
             $scope.$apply();
         });
 
         $scope.$on('dateChange', function (ev, dayNumber) {
             vm.day = dayNumber;
-            vm.getMovies();
+            vm.getDataFromService();
         });
 
         // On filtering event filter movies
