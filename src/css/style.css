@@ -6,6 +6,13 @@
 	src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff2') format('woff2'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff') format('woff'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.ttf') format('truetype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
 }
 
+@font-face {
+	font-family: 'trajan_regular';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/trajan_pro/Trajan_Pro_Regular.ttf') format('truetype');
+}
+
 /*
 ==========================================================================
 COMMON
@@ -17,15 +24,13 @@ COMMON
 
 .tab_container {
     padding: 0;
-    min-height:375px;
+    height:100%;
     margin: 0 auto;
-    max-width:1920px;
     background: #F5FCFF;
 }
 
 .nav_head_container {
     margin:0 auto;
-    max-width:1920px;
     background: #1e2021;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
@@ -199,13 +204,13 @@ html, body {
 }
 
 body  {
-    /*font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;*/
-    font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+    /*font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;*/
+    font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     letter-spacing: 1px;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
-    background: #000;
+    background: #1e2021;
     color: #e8e8e8;
 }
 
@@ -214,7 +219,7 @@ ul {
 }
 
 button {
-    font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+    font-family: 'Raleway', sans-serif;
     padding: 8.5px;
     border: 2px solid #5f6669;
     -webkit-transition: background 0.2s, border-color 0.2s;
@@ -227,20 +232,15 @@ button {
     text-overflow: ellipsis;
     background:transparent;
     color:#c8c8c8;
-    font-size: 15px;
+    font-size: 16px;
     outline: none;
     height: 38px;
+    letter-spacing: 1px;
 }
 
 .not-active {
    pointer-events: none;
    cursor: default;
-}
-
-.filter_grid button:hover  {
-    background:#1d1e21;
-    color:#e8e8e8;
-    border: 2px solid #e8e8e8;
 }
 
 .filter_grid.tabs {
@@ -564,10 +564,9 @@ svg.icon-exit:hover {
 }
 
 .icon-loop {
-    fill: #e8e8e8;
     width: 14px;
     height: 14px;
-    fill: #cecece;
+    fill: #5f6669;
     position: absolute;
     right: 10px;
     top: 10px;
@@ -576,10 +575,21 @@ svg.icon-exit:hover {
 .reset_button {
     padding-right: 3em;
     text-align: left;
+    background: #ffeb3b;
+    border-color: #ffeb3b;
+    color: #5f6669;
+}
+
+.reset_button:hover {
+    padding-right: 3em;
+    text-align: left;
+    background: #fff;
+    border-color: #fff;
+    color: #5f6669;
 }
 
 .reset_button:hover .icon-loop {
-    fill: #e8e8e8;
+    fill: #5f6669;
         -webkit-animation: rotate 0.35s linear;
             animation: rotate 0.35s linear;
     -webkit-transform-origin: center center;
@@ -735,6 +745,25 @@ Loading animation
     transition: transform 0.5s;
     -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
     transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.image_loader > div {
+    font-family: 'nexa_boldregular';
+    text-align: center;
+    font-size: 20px;
 }
 
 .image_animation_loader {
@@ -876,8 +905,8 @@ nav {
 .menu_link {
 	font-size: 16px;
 	display: block;
-    margin: 0.5em;
-    padding: 0 1.1em;
+    margin: 0 1em;
+    padding: 3px 0;
 	cursor: pointer;
 	-webkit-touch-callout: none;
 	-khtml-user-select: none;
@@ -899,12 +928,13 @@ nav {
 }
 
 .menu-top .menu_link:hover {
-    color: #ffeb3b;
+    color: #5f6669;
 }
 
 .menu-top .menu_link:focus,
 .menu_item.active a {
-	color: #5f6669;
+	color: #ffeb3b !important;
+    border-bottom: 4px solid #ffeb3b;
 }
 
 
@@ -1362,6 +1392,8 @@ Movies
     max-width:200px;
     margin:15px 0 0 0;
     letter-spacing: 1px;
+    -webkit-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
 }
 
 .movie_container__date {
@@ -1400,8 +1432,7 @@ Movies
     height: 100%;
 }
 
-.movie_container__info:before,
-.movie_container__info:after {
+.movie_container__info::before {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -1414,64 +1445,37 @@ Movies
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-.movie_container__info:before {
-	border-top: 1px solid #999999;
-	border-bottom: 1px solid #999999;
+.movie_container__info::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #999999;
+    content: '';
+    top: initial;
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
 }
 
-.movie_container__info:after {
-	border-right: 1px solid #999999;
-	border-left: 1px solid #999999;
+.movie_container__info.orange::before {  
+    background: darkorange;
 }
 
-.movie_container__info.orange:before {
-	border-top: 1px solid #ffeb3b;
-	border-bottom: 1px solid #ffeb3b;
+.movie_container__info.green::before {
+    background: #4ea05b;
 }
 
-.movie_container__info.orange:after {
-	border-right: 1px solid #ffeb3b;
-	border-left: 1px solid #ffeb3b;
+.movie_container__info.yellow::before {
+    background: #ffeb3b;
 }
 
-.movie_container__info.green:before {
-	border-top: 1px solid #4ea05b;
-	border-bottom: 1px solid #4ea05b;
+.movie_container__info.grey::before {
+    background: #999999;
 }
 
-.movie_container__info.green:after {
-	border-right: 1px solid #4ea05b;
-	border-left: 1px solid #4ea05b;
-}
-
-.movie_container__info.yellow:before {
-	border-top: 1px solid #ffeb3b;
-	border-bottom: 1px solid #ffeb3b;
-}
-
-.movie_container__info.grey:before {
-	border-top: 1px solid #999999;
-	border-bottom: 1px solid #999999;
-}
-
-.movie_container__info.grey:after {
-	border-right: 1px solid #999999;
-	border-left: 1px solid #999999;
-}
-
-.movie_container__info.yellow:after {
-	border-right: 1px solid #ffeb3b;
-	border-left: 1px solid #ffeb3b;
-}
-
-.movie_container__info.red:before {
-	border-top: 1px solid #ba402b;
-	border-bottom: 1px solid #ba402b;
-}
-
-.movie_container__info.red:after {
-	border-right: 1px solid #ba402b;
-	border-left: 1px solid #ba402b;
+.movie_container__info.red::before {
+    background: #ba402b;
 }
 
 .movie_container__certificateIS  {
@@ -1481,7 +1485,7 @@ Movies
     background-color:#ba402b;
     color:#fff;
     position: absolute;
-    bottom: 15px;
+    bottom: 20px;
     right: 15px;
     font-size:18px;
     opacity: 0;
@@ -1502,6 +1506,7 @@ Movies
 }
 
 .movie_container__certificateIS p  {
+    font-family: nexa_boldregular;
     font-weight: 400;
     position: absolute;
     top: 50%;
@@ -1513,12 +1518,28 @@ Movies
     font-size:25px;
 }
 
-.movie_container__certificateIS p.green  {
-    margin-left: -7px;
+.movie_info_container .movie_container__certificateIS p  {
+    margin-left: -12px;
 }
 
+.movie_info_container .movie_container__certificateIS p.green,
+.movie_info_container .movie_container__certificateIS p.orange {
+    margin-left: -8px;
+}
+
+.list .movie_container__certificateIS p {
+    margin-left: -12px;
+    margin-top: 2px;
+}
+
+.movie_container__certificateIS p.green,
 .movie_container__certificateIS p.orange  {
-    margin-left: -7px;
+    margin-left: -10px;
+}
+
+.list .movie_container__certificateIS p.green,
+.list .movie_container__certificateIS p.orange {
+    margin-left: -8px;
 }
 
 .movie_container:hover .movie_container__certificateIS {
@@ -1554,11 +1575,11 @@ Movies
 }
 
 .movie_container__info p {
+    font-family: 'nexa_boldregular';
     color:#fff;
     position: absolute;
-    bottom:40px;
-    left: 20px;
-    right:10px;
+    top:22px;
+    left: 23px;
 	opacity: 0;
 	filter: alpha(opacity=0);
     font-size:25px;
@@ -1586,7 +1607,7 @@ Movies
 
 .movie_container .imdb_logo {
     position: absolute;
-    bottom: 15px;
+    bottom: 25px;
     left: 15px;
     opacity:0;
     filter: alpha(opacity=0);
@@ -1703,7 +1724,7 @@ Movies
     }
     .menu_link {
         font-size: 16px;
-        padding: 0 0.5em;
+        padding: 8px 0;
     }
 
     .movie_container__inner,
@@ -1774,13 +1795,19 @@ Movies
         border-bottom: 4px solid black;
     }
 
+    .menu-top .menu_link:focus, 
+    .menu_item.active a {
+        color: black !important;
+    }
+
     .menu-top .menu_link:focus, .menu-top .menu_link:hover, .menu_item.active a {
         color:black;
+        border-bottom: none;
     }
 
     .menu_link {
         padding: 0;
-        margin: .4em;
+        margin: .4em .4em .2em;
     }
 
     .main_heading,
@@ -1797,9 +1824,11 @@ Movies
         background: #F3DF49;
         margin-bottom: 10px;
     }
-}
 
-@media only screen and (max-width: 600px) {
+    .movie_info_container .movie_container__certificateIS  {
+        bottom: 10px;
+    }
+
     .movie_container__title {
         font-size: 16px;
         color: #484848;
@@ -2002,6 +2031,31 @@ Movie info
     min-width:200px;
     height:296px;
     display:block;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.list .image_loader > div {
+    color: #fff;
+}
+
+.movie_info_container__poster img.hidden {
+    display:none;
 }
 
 .list .movie_info_container__poster img {
@@ -2098,7 +2152,7 @@ Movie info
 
 .list ul.horizontal_info_line li {
     margin-right: 15px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .list_container .theater h3,
@@ -2117,7 +2171,7 @@ Movie info
     background: rgba(204,204,204,.6);
     color: #18191b;
     padding: 5px;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: .5px;
 }
 
@@ -2214,7 +2268,7 @@ Movie info
 
     .list_container .theater ul li a {
         padding: 4px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .item .plot {
@@ -2238,17 +2292,17 @@ Movie info
     }
 
     .list .movie_container__certificateIS p {
-        font-size: 16px;
-        margin-left: -10px;
-        margin-top: 0.5px;
+        font-size: 18px;
+        margin-left: -8.5px;
+        margin-top: 1px;
     }
 
     .list .movie_container__certificateIS p.orange {
-        margin-left: -4px;
+        margin-left: -5px;
     }
 
     .list .movie_container__certificateIS p.green {
-        margin-left: -5px;
+        margin-left: -6px;
     }
 }
 
@@ -2264,8 +2318,9 @@ Animation image opening
 }
 
 .movie_info_container {
-    background: #18191b;
+    background: #F5FCFF;
     -webkit-overflow-scrolling: touch;
+    min-height: 100vh;
 }
 
 /*
@@ -2307,6 +2362,7 @@ Movie info modal
     backface-visibility: hidden;
     -webkit-transition: 2s;
     transition: 2s;
+    background: black;
 }
 
 .background_image-overlay {
@@ -2560,6 +2616,7 @@ li.imdb svg{
     margin-top: 0;
     min-width: 300px;
     position: relative;
+    cursor: default;
 }
 
 .showtimes_container {
@@ -3114,6 +3171,7 @@ GRID AND LIST ICON TOGGLE
       -ms-user-select: none;
           user-select: none;
 }
+
 .list-grid-toggle:hover .icon-bar,
 .list-grid-toggle:hover .icon-bar:before,
 .list-grid-toggle:hover .icon-bar:after {
@@ -3143,7 +3201,8 @@ GRID AND LIST ICON TOGGLE
 .icon-bar:last-child {
   margin-bottom: 0;
 }
-.icon-bar:before, .icon-bar:after {
+.icon-bar:before, 
+.icon-bar:after {
   position: absolute;
   display: block;
   width: 5px;
@@ -3184,6 +3243,16 @@ GRID AND LIST ICON TOGGLE
 }
 
 @media only screen and (max-width: 600px) {
+    .list-grid-toggle,
+    .icon-bar,
+    .icon-bar:before, 
+    .icon-bar:after {
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: color 0 ease-in;
+        transition: none;
+    }
+
     .icon-bar,
     .icon-bar:before, .icon-bar:after {
         box-shadow: none;
